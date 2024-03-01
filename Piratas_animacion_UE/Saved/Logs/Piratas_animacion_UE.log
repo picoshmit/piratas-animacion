@@ -2514,3 +2514,554 @@ Context 1/2
 [2024.03.01-14.01.50:541][595]SourceControl: Error: fatal: unable to auto-detect email address (got 'Aula 2@A216.(none)')
 [2024.03.01-14.01.55:837][124]LogSlate: Window 'Content Browser' being destroyed
 [2024.03.01-14.01.55:842][124]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.01-14.05.26:743][518]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-14.05.26:748][518]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-14.05.26:756][519]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-14.05.32:712][229]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Canon
+[2024.03.01-14.05.32:815][229]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-14.06.06:596][ 60]LogContentBrowser: Deferred new asset file creation: M_Canon_Inst
+[2024.03.01-14.06.06:615][ 60]LogContentBrowser: Creating deferred item: M_Canon_Inst
+[2024.03.01-14.06.06:629][ 61]LogContentBrowser: Renaming the item being created (Deferred Item: M_Canon_Inst).
+[2024.03.01-14.06.13:413][845]LogContentBrowser: Attempting asset rename: M_Canon_Inst -> MI_Canon
+[2024.03.01-14.06.13:492][845]LogContentBrowser: End creating deferred item M_Canon_Inst
+[2024.03.01-14.06.21:921][755]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.01-14.06.30:471][736]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Canon.M_Canon
+[2024.03.01-14.06.30:498][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-14.06.30:498][736]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-14.06.30:688][736]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.06.30:688][736]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-14.06.30:688][736]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.06.30:697][736]LogViewport: Scene viewport resized to 200x208, mode Windowed.
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: ================================================
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Total job queries 7387, among them cache hits 4 (0.05%)
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Tracking 7376 distinct input hashes that result in 5487 distinct outputs (74.39%)
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: RAM used: 98,68 MiB of 1,60 GiB budget. Usage: 6.02%
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Shaders Compiled: 7376
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Jobs assigned 7379, completed 7376 (99.96%)
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Average time worker was idle: 5.23 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Time job spent in pending queue: average 103.22 s, longest 201.92 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Job execution time: average 2.19 s, max 20.05 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Job life time (pending + execution): average 105.45 s, max 202.34
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Shader code size: average 27,771 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 209.42 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Jobs were issued in 810 batches (only local compilation was used), average 9.11 jobs/batch
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Average processing rate: 35.22 jobs/sec
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Total thread time: 1577,271 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Total thread preprocess time: 116,776 s
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Percentage time preprocessing: 7.40%
+[2024.03.01-14.06.31:125][760]LogShaderCompilers: Display: Effective parallelization: 7.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 4.63 sec, max 8.65 sec, min 0.68 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.11 sec, max 7.38 sec, min 1.33 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.96 sec, max 5.00 sec, min 2.99 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.45 sec, max 2.41 sec, min 0.98 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.15 sec, max 1.60 sec, min 0.91 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.77% of total time (compiled  134 times, average 1.15 sec, max 1.60 sec, min 0.91 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.37% of total time (compiled  384 times, average 0.18 sec, max 0.35 sec, min 0.08 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.19% of total time (compiled   96 times, average 0.69 sec, max 1.25 sec, min 0.45 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.52% of total time (compiled   12 times, average 4.63 sec, max 8.65 sec, min 0.68 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.50% of total time (compiled   96 times, average 0.57 sec, max 0.86 sec, min 0.14 sec)
+[2024.03.01-14.06.31:126][760]LogShaderCompilers: Display: ================================================
+[2024.03.01-14.06.31:330][774]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-14.06.31:330][774]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-14.06.31:330][774]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.06.31:330][774]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-14.06.31:330][774]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.06.40:299][492]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-14.06.59:326][478]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.06.59:326][478]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.06.59:326][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.06.59:326][478]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.06.59:770][493]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.01-14.06.59:770][493]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.06.59:770][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.06.59:770][493]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.06.59:868][500]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-14.06.59:869][500]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.06.59:869][500]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-14.06.59:869][500]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.06.59:869][500]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.06.59:869][500]MaterialEditorStats: Shader Count: 3
+[2024.03.01-14.07.05:533][ 25]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.07.05:533][ 25]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.07.05:533][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.05:533][ 25]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.07.05:869][ 40]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.07.05:869][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.07.05:869][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.05:869][ 40]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.06:273][ 77]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.07.21:480][518]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.07.21:481][518]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.21:481][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.21:481][518]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.07.21:828][537]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.07.21:828][537]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.21:828][537]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.21:828][537]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.21:935][545]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.07.23:590][701]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.07.23:590][701]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.23:590][701]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.23:590][701]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.07.23:933][718]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.07.23:933][718]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.23:933][718]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.23:933][718]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.07.24:027][724]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.24:027][724]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.07.24:027][724]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.24:027][724]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.24:027][724]MaterialEditorStats: Shader Count: 3
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.24:133][732]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.07.25:670][862]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.07.25:670][862]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.25:670][862]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.25:670][862]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.07.26:023][879]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-14.07.26:023][879]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.26:023][879]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.26:023][879]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.26:115][885]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.07.27:988][ 52]LogMaterialEditor: Applying material M_Canon
+[2024.03.01-14.07.28:063][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.01-14.07.28:613][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.01-14.07.33:440][473]LogMaterialEditor: Saving and Compiling material M_Canon
+[2024.03.01-14.07.33:517][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.07.34:480][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Canon.uasset" SILENT=true
+[2024.03.01-14.07.34:482][473]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Canon
+[2024.03.01-14.07.34:482][473]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Canon0EBA53C0494669DB9D64D79A7A33EDC8.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Canon.uasset'
+[2024.03.01-14.07.34:621][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.10 sec (total: 4.97 sec)
+[2024.03.01-14.07.34:622][473]AssetCheck: New page: Asset Save: M_Canon
+[2024.03.01-14.07.34:622][473]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Canon.M_Canon
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.07.34:623][473]MaterialEditorStats: Shader Count: 23
+[2024.03.01-14.07.37:847][735]LogViewport: Scene viewport resized to 311x370, mode Windowed.
+[2024.03.01-14.07.37:914][737]LogViewport: Scene viewport resized to 189x206, mode Windowed.
+[2024.03.01-14.07.37:929][738]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2024.03.01-14.07.39:138][883]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-14.07.39:573][932]LogSlate: Window 'M_Canon' being destroyed
+[2024.03.01-14.08.39:934][ 28]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/cañon/SM_Cañon.SM_Cañon
+[2024.03.01-14.08.39:938][ 28]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-14.08.39:938][ 28]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-14.08.40:307][ 28]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-14.08.45:763][673]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.01-14.08.48:588][997]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/cañon/SM_Cañon) ...
+[2024.03.01-14.08.54:139][631]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/cañon/SM_Cañon) ...
+[2024.03.01-14.09.09:016][290]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-14.09.09:023][290]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-14.09.09:032][291]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-14.09.13:256][777]LogContentBrowser: Attempting asset rename: NewMaterial -> M_
+[2024.03.01-14.09.13:342][777]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-14.10.25:428][969]LogContentBrowser: Attempting asset rename: M_ -> M_Cuerda_Canon
+[2024.03.01-14.10.25:974][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.10.26:046][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Cuerda_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset" SILENT=true
+[2024.03.01-14.10.26:048][969]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Cuerda_Canon
+[2024.03.01-14.10.26:048][969]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Cuerda_CanonC26495304FD2193D95946494F47A9A44.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset'
+[2024.03.01-14.10.26:189][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 5.19 sec)
+[2024.03.01-14.10.26:292][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.01-14.10.26:311][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.01-14.10.26:331][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.01-14.10.26:332][969]AssetCheck: New page: Asset Save: M_Cuerda_Canon
+[2024.03.01-14.10.26:332][969]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Cuerda_Canon.M_Cuerda_Canon
+[2024.03.01-14.10.29:628][249]LogContentBrowser: Deferred new asset file creation: M_Cuerda_Canon_Inst
+[2024.03.01-14.10.29:732][249]LogContentBrowser: Creating deferred item: M_Cuerda_Canon_Inst
+[2024.03.01-14.10.29:746][250]LogContentBrowser: Renaming the item being created (Deferred Item: M_Cuerda_Canon_Inst).
+[2024.03.01-14.10.42:815][710]LogContentBrowser: Attempting asset rename: M_Cuerda_Canon_Inst -> MI_Cuerda_Canon
+[2024.03.01-14.10.42:913][710]LogContentBrowser: End creating deferred item M_Cuerda_Canon_Inst
+[2024.03.01-14.10.47:397][173]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Cuerda_Canon.M_Cuerda_Canon
+[2024.03.01-14.10.47:401][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-14.10.47:401][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-14.10.47:515][173]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.10.47:516][173]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-14.10.47:516][173]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.10.47:520][173]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: ================================================
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Total job queries 7494, among them cache hits 52 (0.69%)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Tracking 7431 distinct input hashes that result in 5510 distinct outputs (74.15%)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: RAM used: 99,83 MiB of 1,60 GiB budget. Usage: 6.09%
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Shaders Compiled: 7431
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Jobs assigned 7434, completed 7431 (99.96%)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Average time worker was idle: 10.59 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Time job spent in pending queue: average 102.45 s, longest 201.92 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Job execution time: average 2.18 s, max 20.05 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Job life time (pending + execution): average 104.68 s, max 202.34
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Shader code size: average 27,834 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 214.75 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Jobs were issued in 865 batches (only local compilation was used), average 8.59 jobs/batch
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Average processing rate: 34.60 jobs/sec
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Total thread time: 1590,303 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Total thread preprocess time: 118,165 s
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Percentage time preprocessing: 7.43%
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Effective parallelization: 7.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 4.63 sec, max 8.65 sec, min 0.68 sec)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.11 sec, max 7.38 sec, min 1.33 sec)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.96 sec, max 5.00 sec, min 2.99 sec)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.45 sec, max 2.41 sec, min 0.98 sec)
+[2024.03.01-14.10.47:933][211]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.15 sec, max 1.60 sec, min 0.91 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.69% of total time (compiled  134 times, average 1.15 sec, max 1.60 sec, min 0.91 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.33% of total time (compiled  384 times, average 0.18 sec, max 0.35 sec, min 0.08 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.15% of total time (compiled   96 times, average 0.69 sec, max 1.25 sec, min 0.45 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.49% of total time (compiled   12 times, average 4.63 sec, max 8.65 sec, min 0.68 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.47% of total time (compiled   96 times, average 0.57 sec, max 0.86 sec, min 0.14 sec)
+[2024.03.01-14.10.47:934][211]LogShaderCompilers: Display: ================================================
+[2024.03.01-14.10.48:141][236]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-14.10.48:141][236]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-14.10.48:141][236]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.10.48:141][236]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-14.10.48:141][236]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.01:690][741]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.01:690][741]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.11.01:690][741]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.01:690][741]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.01:947][761]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.01-14.11.01:948][761]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.11.01:948][761]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.01:948][761]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.02:047][773]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.03:870][957]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.03:870][957]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.03:870][957]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.03:870][957]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.04:160][981]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.01-14.11.04:160][981]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.04:160][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.04:160][981]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.04:260][993]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.06:000][176]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.06:000][176]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.06:000][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.06:000][176]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.06:257][196]MaterialEditorStats: Texture samplers: 1/16
+[2024.03.01-14.11.06:257][196]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.06:257][196]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.06:257][196]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.11.06:357][208]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.03.01-14.11.06:358][208]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.06:358][208]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.11.06:358][208]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.06:358][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.06:358][208]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.08:833][466]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.08:833][466]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.08:833][466]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.08:833][466]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.09:140][493]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.11.09:140][493]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.09:140][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.09:140][493]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: Base pass shader: 200 instructions
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.09:241][505]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.10:748][676]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.10:748][676]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.11.10:748][676]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.10:748][676]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.10:814][678]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.12:481][873]LogMaterialEditor: Saving and Compiling material M_Cuerda_Canon
+[2024.03.01-14.11.12:550][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.01-14.11.12:739][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.01-14.11.12:843][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.11.12:958][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Cuerda_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset" SILENT=true
+[2024.03.01-14.11.12:960][873]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Cuerda_Canon
+[2024.03.01-14.11.12:960][873]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Cuerda_Canon84D68EA44112E9AA28040C85926EE257.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset'
+[2024.03.01-14.11.12:967][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 5.31 sec)
+[2024.03.01-14.11.12:968][873]AssetCheck: New page: Asset Save: M_Cuerda_Canon
+[2024.03.01-14.11.12:968][873]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Cuerda_Canon.M_Cuerda_Canon
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.12:968][873]MaterialEditorStats: Shader Count: 23
+[2024.03.01-14.11.18:296][490]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/cañon/SM_Cañon) ...
+[2024.03.01-14.11.37:314][698]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB
+[2024.03.01-14.11.37:391][698]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.37:391][698]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.11.37:391][698]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.37:391][698]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.37:396][698]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.37:467][699]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.11.40:388][ 43]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Cuerda_Canon: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB
+
+[2024.03.01-14.11.40:389][ 43]LogMaterial: Warning: [AssetLog] C:\Users\Aula 2\Documents\GitHub\piratas-animacion\Piratas_animacion_UE\Content\2_Mat\M_Cuerda_Canon.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB
+
+[2024.03.01-14.11.40:393][ 43]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Final
+[2024.03.01-14.11.40:394][ 43]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB
+[2024.03.01-14.11.41:958][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.11.42:020][213]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Cuerda_canon_RGB
+[2024.03.01-14.11.42:020][213]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cuerda_canon_RGB768C0B8A422F77CDEBFF4B96AFA97611.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Cuerda_canon_RGB.uasset'
+[2024.03.01-14.11.42:025][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 5.38 sec)
+[2024.03.01-14.11.42:026][213]AssetCheck: New page: Asset Save: T_Cuerda_canon_RGB
+[2024.03.01-14.11.42:026][213]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Cuerda_canon_RGB.T_Cuerda_canon_RGB
+[2024.03.01-14.11.53:242][484]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.11.53:242][484]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.53:242][484]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.53:242][484]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.11.53:653][526]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.11.53:653][526]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.53:653][526]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.53:653][526]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.11.53:861][551]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.12.01:188][346]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.12.01:188][346]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.01:188][346]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.01:188][346]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.12.01:317][350]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.12.01:317][350]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.01:317][350]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.01:317][350]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.01:529][371]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.12.05:931][836]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.12.05:931][836]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.05:931][836]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.05:931][836]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.12.06:198][853]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-14.12.06:198][853]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.06:198][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.06:198][853]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.06:298][865]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.12.08:810][150]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.12.08:810][150]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.08:810][150]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.08:810][150]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.12.09:075][171]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-14.12.09:075][171]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.09:075][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.09:075][171]MaterialEditorStats: Shader Count: 1
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.09:182][183]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.12.10:407][329]LogMaterialEditor: Applying material M_Cuerda_Canon
+[2024.03.01-14.12.10:465][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.01-14.12.10:869][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.01-14.12.11:330][374]LogMaterialEditor: Saving and Compiling material M_Cuerda_Canon
+[2024.03.01-14.12.11:422][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.12.12:455][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Cuerda_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset" SILENT=true
+[2024.03.01-14.12.12:456][374]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Cuerda_Canon
+[2024.03.01-14.12.12:456][374]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Cuerda_CanonF9D019634431CC68A835019181DE57F0.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cuerda_Canon.uasset'
+[2024.03.01-14.12.12:462][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.04 sec (total: 6.42 sec)
+[2024.03.01-14.12.12:463][374]AssetCheck: New page: Asset Save: M_Cuerda_Canon
+[2024.03.01-14.12.12:463][374]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Cuerda_Canon.M_Cuerda_Canon
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.12:464][374]MaterialEditorStats: Shader Count: 23
+[2024.03.01-14.12.59:262][927]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.12.59:262][927]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.12.59:262][927]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.59:262][927]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.12.59:297][929]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.13.05:353][623]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Canon_RGB.T_Canon_RGB
+[2024.03.01-14.13.05:437][623]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-14.13.07:638][871]LogMaterial: Warning: [AssetLog] C:\Users\Aula 2\Documents\GitHub\piratas-animacion\Piratas_animacion_UE\Content\2_Mat\M_Canon.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/2_Mat/Textures/T_Canon_RGB.T_Canon_RGB
+
+[2024.03.01-14.13.07:664][872]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Canon_RGB.T_Canon_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-14.13.10:009][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.13.10:101][134]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Canon_RGB
+[2024.03.01-14.13.10:102][134]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Canon_RGB6A5FB91542B78A272A6DBA8BCAC29D16.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Canon_RGB.uasset'
+[2024.03.01-14.13.10:109][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 6.52 sec)
+[2024.03.01-14.13.10:110][134]AssetCheck: New page: Asset Save: T_Canon_RGB
+[2024.03.01-14.13.10:110][134]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Canon_RGB.T_Canon_RGB
+[2024.03.01-14.13.28:420][227]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.13.28:420][227]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.13.28:420][227]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.28:420][227]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.28:489][229]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.13.31:728][584]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.13.31:728][584]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.31:728][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.31:728][584]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.31:802][586]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.13.33:470][765]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.13.33:470][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.33:470][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.33:470][765]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.13.33:534][767]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-14.13.33:535][767]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.13.33:535][767]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.13.33:535][767]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.33:535][767]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.33:535][767]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.13.35:469][963]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-14.13.35:469][963]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.35:469][963]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.35:469][963]MaterialEditorStats: Shader Count: 0
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.35:528][965]MaterialEditorStats: Shader Count: 4
+[2024.03.01-14.13.36:539][ 85]LogMaterialEditor: Applying material M_Canon
+[2024.03.01-14.13.36:615][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.01-14.13.36:791][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.01-14.13.37:322][141]LogMaterialEditor: Saving and Compiling material M_Canon
+[2024.03.01-14.13.37:388][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.13.37:499][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Canon.uasset" SILENT=true
+[2024.03.01-14.13.37:501][141]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Canon
+[2024.03.01-14.13.37:502][141]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Canon2B143490419BD337F6EAEA8854C9C390.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Canon.uasset'
+[2024.03.01-14.13.37:507][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 6.64 sec)
+[2024.03.01-14.13.37:508][141]AssetCheck: New page: Asset Save: M_Canon
+[2024.03.01-14.13.37:508][141]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Canon.M_Canon
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-14.13.37:508][141]MaterialEditorStats: Shader Count: 23
+[2024.03.01-14.13.41:719][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.13.41:812][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/cañon/SM_Cañon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/cañon/SM_Cañon.uasset" SILENT=true
+[2024.03.01-14.13.41:832][621]LogSavePackage: Moving output files for package: /Game/1_props/cañon/SM_Cañon
+[2024.03.01-14.13.41:832][621]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/SM_CañonFE4429C04D83EAC18F16F48D2B240668.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/cañon/SM_Cañon.uasset'
+[2024.03.01-14.13.41:842][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 6.76 sec)
+[2024.03.01-14.13.41:843][621]AssetCheck: New page: Asset Save: SM_Cañon
+[2024.03.01-14.13.41:843][621]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/cañon/SM_Cañon.SM_Cañon
+[2024.03.01-14.14.08:238][758]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-14.14.08:238][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-14.14.08:694][801]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-14.14.08:694][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-14.14.09:119][843]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-14.14.09:119][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-14.14.55:972][ 21]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-14.14.55:979][ 21]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-14.14.55:987][ 22]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-14.15.03:840][960]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Balas_De_Canon
+[2024.03.01-14.15.03:903][960]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-14.15.08:195][380]LogContentBrowser: Deferred new asset file creation: M_Balas_De_Canon_Inst
+[2024.03.01-14.15.08:213][380]LogContentBrowser: Creating deferred item: M_Balas_De_Canon_Inst
+[2024.03.01-14.15.08:221][381]LogContentBrowser: Renaming the item being created (Deferred Item: M_Balas_De_Canon_Inst).
+[2024.03.01-14.15.15:793][215]LogContentBrowser: Attempting asset rename: M_Balas_De_Canon_Inst -> MI_Balas_De_Canon
+[2024.03.01-14.15.15:874][215]LogContentBrowser: End creating deferred item M_Balas_De_Canon_Inst
+[2024.03.01-14.15.52:012][288]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Balas_de_canon_RGB.T_Balas_de_canon_RGB
+[2024.03.01-14.15.52:152][288]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-14.15.54:987][596]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Balas_de_canon_RGB.T_Balas_de_canon_RGB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 124.145823 MB), EncodeSpeed: Final
+[2024.03.01-14.15.56:254][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.15.56:291][716]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Balas_de_canon_RGB
+[2024.03.01-14.15.56:292][716]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Balas_de_canon_RGB3FF987C64DEC17FF40F4BCA64EF3C8DB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Balas_de_canon_RGB.uasset'
+[2024.03.01-14.15.56:297][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 6.80 sec)
+[2024.03.01-14.15.56:298][716]AssetCheck: New page: Asset Save: T_Balas_de_canon_RGB
+[2024.03.01-14.15.56:298][716]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Balas_de_canon_RGB.T_Balas_de_canon_RGB
+[2024.03.01-14.16.04:187][521]LogSlate: Window 'T_Balas_de_canon_RGB' being destroyed
+[2024.03.01-14.16.48:994][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.01-14.16.50:202][598]LogSlate: Window 'Save Content' being destroyed
+[2024.03.01-14.16.50:342][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-14.16.50:390][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.01-14.16.50:433][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.01-14.16.50:442][598]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-14.16.50:443][598]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MainB027A3934711722326FE5E9E11AEAB22.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-14.16.50:448][598]LogFileHelpers: Saving map 'Main' took 0.060
+[2024.03.01-14.16.50:493][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Balas_De_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Balas_De_Canon.uasset" SILENT=true
+[2024.03.01-14.16.50:495][598]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Balas_De_Canon
+[2024.03.01-14.16.50:495][598]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Balas_De_Canon27C355314602EAB05375AD83F6637E07.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Balas_De_Canon.uasset'
+[2024.03.01-14.16.50:504][598]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Balas_De_Canon
+[2024.03.01-14.16.50:504][598]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Balas_De_Canon1833B615447C592466C4B99D5B2FDA14.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Balas_De_Canon.uasset'
+[2024.03.01-14.16.50:511][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/MI_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Canon.uasset" SILENT=true
+[2024.03.01-14.16.50:512][598]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Canon
+[2024.03.01-14.16.50:512][598]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_CanonD9AB8A764BE130EC431EFB9614813ECF.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Canon.uasset'
+[2024.03.01-14.16.50:519][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/MI_Cuerda_Canon" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Cuerda_Canon.uasset" SILENT=true
+[2024.03.01-14.16.50:520][598]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Cuerda_Canon
+[2024.03.01-14.16.50:520][598]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Cuerda_Canon18A2BE024CDB26E629C1F7A35A9E4B14.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Cuerda_Canon.uasset'
+[2024.03.01-14.16.50:672][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 330 ms (total: 7.13 sec)
+[2024.03.01-14.16.50:674][598]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-14.16.50:674][598]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-14.16.50:674][598]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Balas_De_Canon.M_Balas_De_Canon
+[2024.03.01-14.16.50:674][598]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Balas_De_Canon.MI_Balas_De_Canon
+[2024.03.01-14.16.50:674][598]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Canon.MI_Canon
+[2024.03.01-14.16.50:674][598]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Cuerda_Canon.MI_Cuerda_Canon
