@@ -1459,3 +1459,4 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.03.01-14.14.28:449][821]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 257 ms)
 [2024.03.01-14.14.28:450][821]AssetCheck: New page: Asset Save: LS_Shot_010
 [2024.03.01-14.14.28:450][821]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/4_sec/LS_Shot_010.LS_Shot_010
+[2024.03.01-14.16.27:389][ 21]LogSlate: Window 'Revision Control Login' being destroyed
