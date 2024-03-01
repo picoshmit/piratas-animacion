@@ -2929,3 +2929,898 @@ Script Stack (0 frames) :
 [2024.03.01-15.30.59:360][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 9.16 sec)
 [2024.03.01-15.30.59:362][970]AssetCheck: New page: Asset Save: Main
 [2024.03.01-15.30.59:362][970]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-15.33.21:655][553]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.01-15.36.16:597][834]LogDerivedDataCache: C:/Users/Aula 2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.562 and deleted 0 files with total size 0 MiB and 10 empty folders. Scanned 2855 files in 4209 folders with total size 269 MiB.
+[2024.03.01-15.40.59:569][526]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2024.03.01-15.40.59:748][526]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto3
+[2024.03.01-15.40.59:749][526]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Main_Auto385E07F3C47B031C3464AFA9CB9CC6C53.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto3.umap'
+[2024.03.01-15.40.59:768][526]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto3.umap is in the /Temp path, will not scan.
+[2024.03.01-15.40.59:779][526]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.364
+[2024.03.01-15.40.59:779][526]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.364
+[2024.03.01-15.49.49:028][381]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-15.49.49:038][381]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-15.49.49:058][382]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-15.50.03:474][ 64]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Barril_Sin_tapa
+[2024.03.01-15.50.03:606][ 64]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-15.50.08:418][566]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-15.50.08:425][566]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-15.50.08:438][567]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-15.50.18:170][703]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Barril_Grande
+[2024.03.01-15.50.18:282][703]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-15.50.25:019][344]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-15.50.25:027][344]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-15.50.25:038][345]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-15.50.44:971][660]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Barril_Con_Tapa
+[2024.03.01-15.50.45:069][660]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-15.50.48:267][966]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-15.50.48:275][966]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-15.50.48:287][967]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-15.50.51:583][358]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Cofre
+[2024.03.01-15.50.51:651][358]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-15.50.55:340][734]LogContentBrowser: Deferred new asset file creation: M_Cofre_Inst
+[2024.03.01-15.50.55:357][734]LogContentBrowser: Creating deferred item: M_Cofre_Inst
+[2024.03.01-15.50.55:367][735]LogContentBrowser: Renaming the item being created (Deferred Item: M_Cofre_Inst).
+[2024.03.01-15.51.01:140][392]LogContentBrowser: Attempting asset rename: M_Cofre_Inst -> MI_Cofre
+[2024.03.01-15.51.01:252][392]LogContentBrowser: End creating deferred item M_Cofre_Inst
+[2024.03.01-15.51.05:932][860]LogContentBrowser: Attempting asset rename: M_Cofre -> M_Cofre
+[2024.03.01-15.51.08:277][ 91]LogContentBrowser: Deferred new asset file creation: M_Barril_Sin_tapa_Inst
+[2024.03.01-15.51.08:290][ 91]LogContentBrowser: Creating deferred item: M_Barril_Sin_tapa_Inst
+[2024.03.01-15.51.08:301][ 92]LogContentBrowser: Renaming the item being created (Deferred Item: M_Barril_Sin_tapa_Inst).
+[2024.03.01-15.51.13:167][648]LogContentBrowser: Attempting asset rename: M_Barril_Sin_tapa_Inst -> MI_Barril_Sin_tapa
+[2024.03.01-15.51.13:262][648]LogContentBrowser: End creating deferred item M_Barril_Sin_tapa_Inst
+[2024.03.01-15.51.15:970][929]LogContentBrowser: Deferred new asset file creation: M_Barril_Grande_Inst
+[2024.03.01-15.51.15:990][929]LogContentBrowser: Creating deferred item: M_Barril_Grande_Inst
+[2024.03.01-15.51.16:000][930]LogContentBrowser: Renaming the item being created (Deferred Item: M_Barril_Grande_Inst).
+[2024.03.01-15.51.21:363][548]LogContentBrowser: Attempting asset rename: M_Barril_Grande_Inst -> MI_Barril_Grande
+[2024.03.01-15.51.21:453][548]LogContentBrowser: End creating deferred item M_Barril_Grande_Inst
+[2024.03.01-15.51.24:555][859]LogContentBrowser: Deferred new asset file creation: M_Barril_Con_Tapa_Inst
+[2024.03.01-15.51.24:573][859]LogContentBrowser: Creating deferred item: M_Barril_Con_Tapa_Inst
+[2024.03.01-15.51.24:583][860]LogContentBrowser: Renaming the item being created (Deferred Item: M_Barril_Con_Tapa_Inst).
+[2024.03.01-15.51.29:968][476]LogContentBrowser: Attempting asset rename: M_Barril_Con_Tapa_Inst -> MI_Barril_Con_Tapa
+[2024.03.01-15.51.30:069][476]LogContentBrowser: End creating deferred item M_Barril_Con_Tapa_Inst
+[2024.03.01-15.51.43:192][897]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barril_sin_tapa/Barril_sin_tapa.Barril_sin_tapa
+[2024.03.01-15.51.43:354][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.51.43:362][897]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.51.44:411][897]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-15.51.55:811][ 53]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Barril_sin_tapa/Barril_sin_tapa) ...
+[2024.03.01-15.51.58:193][207]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.51.58:329][207]LogSavePackage: Moving output files for package: /Game/1_props/Barril_sin_tapa/Barril_sin_tapa
+[2024.03.01-15.51.58:330][207]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Barril_sin_tapa04E50AEE44BA0B2C080134AFE34A999F.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barril_sin_tapa/Barril_sin_tapa.uasset'
+[2024.03.01-15.51.58:339][207]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 9.30 sec)
+[2024.03.01-15.51.58:345][207]AssetCheck: New page: Asset Save: Barril_sin_tapa
+[2024.03.01-15.51.58:345][207]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barril_sin_tapa/Barril_sin_tapa.Barril_sin_tapa
+[2024.03.01-15.52.05:943][438]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/barril_grande/Barril_grande.Barril_grande
+[2024.03.01-15.52.05:950][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.52.05:951][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.52.06:474][438]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-15.52.17:176][574]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/barril_grande/Barril_grande) ...
+[2024.03.01-15.52.19:114][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.52.19:216][701]LogSavePackage: Moving output files for package: /Game/1_props/barril_grande/Barril_grande
+[2024.03.01-15.52.19:217][701]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Barril_grande538BB8CC4B8A10B3E0FB64A2581873DE.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/barril_grande/Barril_grande.uasset'
+[2024.03.01-15.52.19:224][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 9.41 sec)
+[2024.03.01-15.52.19:226][701]AssetCheck: New page: Asset Save: Barril_grande
+[2024.03.01-15.52.19:226][701]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/barril_grande/Barril_grande.Barril_grande
+[2024.03.01-15.52.31:546][407]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barril_tapa/Barril_con_tapa.Barril_con_tapa
+[2024.03.01-15.52.31:554][407]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.52.31:554][407]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.52.32:088][407]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-15.52.38:182][ 51]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Barril_tapa/Barril_con_tapa) ...
+[2024.03.01-15.52.39:531][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.52.39:628][131]LogSavePackage: Moving output files for package: /Game/1_props/Barril_tapa/Barril_con_tapa
+[2024.03.01-15.52.39:628][131]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Barril_con_tapa5990CD9C4A401D90B9611A9C80A1F16F.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barril_tapa/Barril_con_tapa.uasset'
+[2024.03.01-15.52.39:636][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 9.52 sec)
+[2024.03.01-15.52.39:637][131]AssetCheck: New page: Asset Save: Barril_con_tapa
+[2024.03.01-15.52.39:637][131]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barril_tapa/Barril_con_tapa.Barril_con_tapa
+[2024.03.01-15.52.45:361][494]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Balas_cañon/balas_de_cañon.balas_de_cañon
+[2024.03.01-15.52.45:370][494]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.52.45:370][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.52.45:861][494]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-15.52.51:608][ 71]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Balas_cañon/balas_de_cañon) ...
+[2024.03.01-15.52.52:998][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.52.53:091][154]LogSavePackage: Moving output files for package: /Game/1_props/Balas_cañon/balas_de_cañon
+[2024.03.01-15.52.53:091][154]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/balas_de_cañon64B967B44BAA92214A1ACD86436B1F83.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/Balas_cañon/balas_de_cañon.uasset'
+[2024.03.01-15.52.53:099][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 9.62 sec)
+[2024.03.01-15.52.53:100][154]AssetCheck: New page: Asset Save: balas_de_cañon
+[2024.03.01-15.52.53:101][154]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Balas_cañon/balas_de_cañon.balas_de_cañon
+[2024.03.01-15.52.56:026][384]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.52.56:030][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.52.56:429][407]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.52.56:429][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.52.56:889][440]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.52.56:889][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.53.07:853][299]LogStaticMesh: Display: Building static mesh Cofre...
+[2024.03.01-15.53.07:854][299]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Cofre/Cofre.Cofre
+[2024.03.01-15.53.07:872][299]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Cofre/Cofre) ...
+[2024.03.01-15.53.07:875][299]LogStaticMesh: Built static mesh [0.02s] /Game/1_props/Cofre/Cofre.Cofre
+[2024.03.01-15.53.07:885][299]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.53.07:885][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.53.08:333][299]LogViewport: Scene viewport resized to 1169x722, mode Windowed.
+[2024.03.01-15.53.18:616][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.53.18:703][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Cofre/Cofre" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/Cofre/Cofre.uasset" SILENT=true
+[2024.03.01-15.53.18:707][323]LogSavePackage: Moving output files for package: /Game/1_props/Cofre/Cofre
+[2024.03.01-15.53.18:707][323]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/CofreBACE88094AA222D740779BBA4B197338.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/1_props/Cofre/Cofre.uasset'
+[2024.03.01-15.53.18:714][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 9.72 sec)
+[2024.03.01-15.53.18:716][323]AssetCheck: New page: Asset Save: Cofre
+[2024.03.01-15.53.18:716][323]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Cofre/Cofre.Cofre
+[2024.03.01-15.53.20:329][451]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.53.20:329][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.53.21:508][548]LogSlate: Window 'balas_de_cañon' being destroyed
+[2024.03.01-15.53.21:547][548]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.53.21:547][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.53.29:855][379]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Barril_Con_Tapa.M_Barril_Con_Tapa
+[2024.03.01-15.53.29:917][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.53.29:917][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.53.30:176][379]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-15.53.30:176][379]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-15.53.30:176][379]MaterialEditorStats: Shader Count: 0
+[2024.03.01-15.53.30:185][379]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: ================================================
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Total job queries 4349, among them cache hits 471 (10.83%)
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Tracking 3874 distinct input hashes that result in 2724 distinct outputs (70.31%)
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: RAM used: 70,28 MiB of 1,60 GiB budget. Usage: 4.29%
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Shaders Compiled: 3819
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Jobs assigned 3819, completed 3819 (100%)
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Average time worker was idle: 22.19 s
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Time job spent in pending queue: average 66.38 s, longest 146.05 s
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Job execution time: average 3.07 s, max 11.77 s
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Job life time (pending + execution): average 69.45 s, max 149.99
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Shader code size: average 37,457 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.03.01-15.53.30:294][380]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 162.09 s
+[2024.03.01-15.53.30:295][380]LogShaderCompilers: Display: Jobs were issued in 501 batches (only local compilation was used), average 7.62 jobs/batch
+[2024.03.01-15.53.30:295][380]LogShaderCompilers: Display: Average processing rate: 23.56 jobs/sec
+[2024.03.01-15.53.30:295][380]LogShaderCompilers: Display: Total thread time: 1176,222 s
+[2024.03.01-15.53.30:295][380]LogShaderCompilers: Display: Total thread preprocess time: 79,532 s
+[2024.03.01-15.53.30:295][380]LogShaderCompilers: Display: Percentage time preprocessing: 6.76%
+[2024.03.01-15.53.30:296][380]LogShaderCompilers: Display: Effective parallelization: 7.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.30 sec, max 8.11 sec, min 1.28 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.69 sec, max 5.26 sec, min 2.22 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.36 sec, max 2.53 sec, min 0.38 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.09% of total time (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.79% of total time (compiled   96 times, average 0.71 sec, max 1.21 sec, min 0.44 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.73% of total time (compiled   96 times, average 0.58 sec, max 0.93 sec, min 0.14 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.23% of total time (compiled  128 times, average 0.39 sec, max 0.71 sec, min 0.13 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.10% of total time (compiled  128 times, average 0.38 sec, max 0.82 sec, min 0.26 sec)
+[2024.03.01-15.53.30:299][380]LogShaderCompilers: Display: ================================================
+[2024.03.01-15.53.30:335][381]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-15.53.30:335][381]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-15.53.30:335][381]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-15.53.30:335][381]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-15.53.30:335][381]MaterialEditorStats: Shader Count: 4
+[2024.03.01-15.53.31:440][469]LogSlate: Window 'M_Barril_Con_Tapa' being destroyed
+[2024.03.01-15.53.31:446][469]LogSlate: Window 'M_Barril_Con_Tapa' being destroyed
+[2024.03.01-15.53.31:473][469]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.53.31:473][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.53.55:317][209]LogInterchangeEngine: [Pending] Importing
+[2024.03.01-15.53.55:317][209]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/cofre/T_Cofre_RGB.png]
+[2024.03.01-15.53.55:318][209]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.53.55:318][209]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/cofre/T_Cofre_BC.png]
+[2024.03.01-15.53.55:320][209]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.53.55:320][209]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/cofre/T_Cofre_N.png]
+[2024.03.01-15.53.55:342][210]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.53.55:445][212]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Cofre_BC.T_Cofre_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.53.55:460][212]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.53.55:485][212]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.03.01-15.53.55:490][212]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.53.55:490][212]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.01-15.53.55:508][212]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Cofre_N.T_Cofre_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.01-15.53.55:624][212]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.53.55:645][212]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.54.00:483][620]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB
+[2024.03.01-15.54.00:672][620]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-15.54.04:124][933]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-15.54.05:150][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-15.54.05:255][ 13]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Cofre_RGB
+[2024.03.01-15.54.05:255][ 13]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_RGB8897DF154B62B188CB8DFB84EEC4A3AF.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Cofre_RGB.uasset'
+[2024.03.01-15.54.05:452][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 10.0 sec)
+[2024.03.01-15.54.05:453][ 13]AssetCheck: New page: Asset Save: T_Cofre_RGB
+[2024.03.01-15.54.05:453][ 13]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB
+[2024.03.01-15.54.06:013][ 61]LogSlate: Window 'T_Cofre_RGB' being destroyed
+[2024.03.01-15.54.21:668][634]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_UV_ID_1_RGB.T_UV_ID_1_RGB
+[2024.03.01-15.54.21:756][634]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-15.54.50:036][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.01-15.54.50:041][797]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.028
+[2024.03.01-15.54.50:042][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/M_Barril_Sin_tapa] ([1] browsable assets)...
+[2024.03.01-15.54.50:050][797]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2_Mat/M_Barril_Sin_tapa.M_Barril_Sin_tapa]
+[2024.03.01-15.54.50:050][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/M_Barril_Sin_tapa]
+[2024.03.01-15.54.50:051][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/M_Barril_Sin_tapa_Auto4
+[2024.03.01-15.54.50:051][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_Sin_tapa_Auto406359B814F7D635004F425A0F21EDEBB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/M_Barril_Sin_tapa_Auto4.uasset'
+[2024.03.01-15.54.50:052][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/M_Barril_Grande] ([1] browsable assets)...
+[2024.03.01-15.54.50:058][797]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2_Mat/M_Barril_Grande.M_Barril_Grande]
+[2024.03.01-15.54.50:058][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/M_Barril_Grande]
+[2024.03.01-15.54.50:059][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/M_Barril_Grande_Auto4
+[2024.03.01-15.54.50:059][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_Grande_Auto409B4EB2B4F15AE9DEC84AC92BCE112EB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/M_Barril_Grande_Auto4.uasset'
+[2024.03.01-15.54.50:060][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/M_Barril_Con_Tapa] ([1] browsable assets)...
+[2024.03.01-15.54.50:065][797]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2_Mat/M_Barril_Con_Tapa.M_Barril_Con_Tapa]
+[2024.03.01-15.54.50:065][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/M_Barril_Con_Tapa]
+[2024.03.01-15.54.50:067][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/M_Barril_Con_Tapa_Auto4
+[2024.03.01-15.54.50:067][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_Con_Tapa_Auto4CBBA4CF248F93509089670A34BF26FED.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/M_Barril_Con_Tapa_Auto4.uasset'
+[2024.03.01-15.54.50:068][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/M_Cofre] ([1] browsable assets)...
+[2024.03.01-15.54.50:074][797]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2_Mat/M_Cofre.M_Cofre]
+[2024.03.01-15.54.50:074][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/M_Cofre]
+[2024.03.01-15.54.50:075][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/M_Cofre_Auto4
+[2024.03.01-15.54.50:075][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Cofre_Auto4666BAC154CA1AB0EB0515AB136D81AAA.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/M_Cofre_Auto4.uasset'
+[2024.03.01-15.54.50:076][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/MI_Cofre] ([1] browsable assets)...
+[2024.03.01-15.54.50:081][797]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2_Mat/MI_Cofre.MI_Cofre]
+[2024.03.01-15.54.50:081][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Cofre]
+[2024.03.01-15.54.50:082][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Cofre_Auto4
+[2024.03.01-15.54.50:082][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Cofre_Auto431B987894EA237079BDDB6AFC401042D.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Cofre_Auto4.uasset'
+[2024.03.01-15.54.50:083][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/MI_Barril_Sin_tapa] ([1] browsable assets)...
+[2024.03.01-15.54.50:091][797]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2_Mat/MI_Barril_Sin_tapa.MI_Barril_Sin_tapa]
+[2024.03.01-15.54.50:091][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Sin_tapa]
+[2024.03.01-15.54.50:092][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Sin_tapa_Auto4
+[2024.03.01-15.54.50:092][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Sin_tapa_Auto4B125801F41C7E1C18274258E80BCF61C.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Sin_tapa_Auto4.uasset'
+[2024.03.01-15.54.50:093][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/MI_Barril_Grande] ([1] browsable assets)...
+[2024.03.01-15.54.50:099][797]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2_Mat/MI_Barril_Grande.MI_Barril_Grande]
+[2024.03.01-15.54.50:099][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Grande]
+[2024.03.01-15.54.50:100][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Grande_Auto4
+[2024.03.01-15.54.50:100][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Grande_Auto44F79151C41B86826DC6E848B3C54C6E1.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Grande_Auto4.uasset'
+[2024.03.01-15.54.50:101][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/MI_Barril_Con_Tapa] ([1] browsable assets)...
+[2024.03.01-15.54.50:107][797]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2_Mat/MI_Barril_Con_Tapa.MI_Barril_Con_Tapa]
+[2024.03.01-15.54.50:107][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Con_Tapa]
+[2024.03.01-15.54.50:109][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Con_Tapa_Auto4
+[2024.03.01-15.54.50:109][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Con_Tapa_Auto4A876EB7A45D86BB0C05CFBB5A2866802.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Con_Tapa_Auto4.uasset'
+[2024.03.01-15.54.50:109][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Cofre_N] ([1] browsable assets)...
+[2024.03.01-15.54.50:110][797]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Cofre_N.T_Cofre_N]
+[2024.03.01-15.54.50:110][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Cofre_N]
+[2024.03.01-15.54.50:121][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Cofre_N_Auto4
+[2024.03.01-15.54.50:121][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_N_Auto446255A6948328F40BE7BE69AE9E36EAC.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Cofre_N_Auto4.uasset'
+[2024.03.01-15.54.50:122][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Cofre_BC] ([1] browsable assets)...
+[2024.03.01-15.54.50:124][797]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Cofre_BC.T_Cofre_BC]
+[2024.03.01-15.54.50:124][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Cofre_BC]
+[2024.03.01-15.54.50:132][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Cofre_BC_Auto4
+[2024.03.01-15.54.50:132][797]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_BC_Auto4EF360A1A4CFED825C4AC40A2B9A1251F.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Cofre_BC_Auto4.uasset'
+[2024.03.01-15.54.50:133][797]LogFileHelpers: Auto-saving content packages took 0.092
+[2024.03.01-15.57.14:030][938]LogInterchangeEngine: [Pending] Importing
+[2024.03.01-15.57.14:030][938]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril con tapa/T_Barril_Con_Tapa_RGB.png]
+[2024.03.01-15.57.14:031][938]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.14:031][938]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril con tapa/T_Barril_Con_Tapa_BC.png]
+[2024.03.01-15.57.14:031][938]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.14:031][938]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril con tapa/T_Barril_Con_Tapa_N.png]
+[2024.03.01-15.57.14:056][939]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.14:145][941]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Con_Tapa_BC.T_Barril_Con_Tapa_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.14:175][941]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.03.01-15.57.14:177][941]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.14:180][941]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.01-15.57.14:183][941]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Con_Tapa_N.T_Barril_Con_Tapa_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.14:199][941]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Con_Tapa_RGB.T_Barril_Con_Tapa_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.14:328][942]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.57.14:345][942]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.57.19:310][470]LogInterchangeEngine: [Pending] Importing
+[2024.03.01-15.57.19:310][470]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/barril grande/T_Barril_Grande_RGB.png]
+[2024.03.01-15.57.19:311][470]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.19:311][470]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/barril grande/T_Barril_Grande_BC.png]
+[2024.03.01-15.57.19:312][470]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.19:312][470]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y revisados/barril grande/T_Barril_Grande_N.png]
+[2024.03.01-15.57.19:340][471]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.19:427][473]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.19:427][473]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.01-15.57.19:430][473]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Grande_BC.T_Barril_Grande_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.19:435][473]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Grande_RGB.T_Barril_Grande_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.19:464][473]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.03.01-15.57.19:490][473]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Grande_N.T_Barril_Grande_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.19:609][474]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.57.19:626][474]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.57.24:672][  9]LogInterchangeEngine: [Pending] Importing
+[2024.03.01-15.57.24:672][  9]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril sin tapa/T_Barril_Sin_Tapa_RGB.png]
+[2024.03.01-15.57.24:673][  9]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.24:673][  9]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril sin tapa/T_Barril_Sin_tapa_BC.png]
+[2024.03.01-15.57.24:673][  9]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.24:673][  9]LogInterchangeEngine: Display: Interchange start importing source [Z:/Assets/Hechos y r...ados/barril sin tapa/T_Barril_Sin_Tapa_N.png]
+[2024.03.01-15.57.24:690][ 10]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-15.57.24:774][ 12]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-15.57.24:775][ 12]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.01-15.57.24:781][ 12]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Sin_tapa_BC.T_Barril_Sin_tapa_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.24:784][ 12]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Sin_Tapa_RGB.T_Barril_Sin_Tapa_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.24:875][ 13]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.03.01-15.57.24:908][ 13]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Sin_Tapa_N.T_Barril_Sin_Tapa_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.01-15.57.25:025][ 13]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.57.25:041][ 14]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-15.58.02:151][203]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.58.02:151][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-15.58.06:491][551]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.01-15.58.06:497][551]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.01-15.58.12:753][205]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Barril_Con_Tapa.M_Barril_Con_Tapa
+[2024.03.01-15.58.12:757][205]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-15.58.12:757][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-15.58.12:943][205]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-15.58.12:943][205]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-15.58.12:943][205]MaterialEditorStats: Shader Count: 0
+[2024.03.01-15.58.12:953][205]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: ================================================
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: Total job queries 4357, among them cache hits 479 (10.99%)
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: Tracking 3874 distinct input hashes that result in 2724 distinct outputs (70.31%)
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: RAM used: 70,28 MiB of 1,60 GiB budget. Usage: 4.29%
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-15.58.12:995][206]LogShaderCompilers: Display: Shaders Compiled: 3819
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Jobs assigned 3819, completed 3819 (100%)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Average time worker was idle: 22.19 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Time job spent in pending queue: average 66.38 s, longest 146.05 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Job execution time: average 3.07 s, max 11.77 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Job life time (pending + execution): average 69.45 s, max 149.99
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Shader code size: average 37,457 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 162.09 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Jobs were issued in 501 batches (only local compilation was used), average 7.62 jobs/batch
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Average processing rate: 23.56 jobs/sec
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Total thread time: 1176,222 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Total thread preprocess time: 79,532 s
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Percentage time preprocessing: 6.76%
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Effective parallelization: 7.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.30 sec, max 8.11 sec, min 1.28 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.69 sec, max 5.26 sec, min 2.22 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.36 sec, max 2.53 sec, min 0.38 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.09% of total time (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.79% of total time (compiled   96 times, average 0.71 sec, max 1.21 sec, min 0.44 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.73% of total time (compiled   96 times, average 0.58 sec, max 0.93 sec, min 0.14 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.23% of total time (compiled  128 times, average 0.39 sec, max 0.71 sec, min 0.13 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.10% of total time (compiled  128 times, average 0.38 sec, max 0.82 sec, min 0.26 sec)
+[2024.03.01-15.58.12:996][206]LogShaderCompilers: Display: ================================================
+[2024.03.01-15.58.13:031][207]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-15.58.13:031][207]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-15.58.13:031][207]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-15.58.13:031][207]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-15.58.13:031][207]MaterialEditorStats: Shader Count: 4
+[2024.03.01-15.58.26:794][356]LogSlate: Window 'M_Barril_Con_Tapa' being destroyed
+[2024.03.01-15.58.26:801][356]LogSlate: Window 'M_Barril_Con_Tapa' being destroyed
+[2024.03.01-15.58.26:817][356]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-15.58.26:817][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-16.00.06:945][389]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_RGB.T_Barril_Con_Tapa_RGB
+[2024.03.01-16.00.07:101][389]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-16.00.09:020][578]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Con_Tapa_RGB.T_Barril_Con_Tapa_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-16.00.10:562][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.00.10:672][710]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Con_Tapa_RGB
+[2024.03.01-16.00.10:672][710]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Con_Tapa_RGB8E046297403363F7E6296AAF103BAF31.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Con_Tapa_RGB.uasset'
+[2024.03.01-16.00.10:865][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 10.3 sec)
+[2024.03.01-16.00.10:866][710]AssetCheck: New page: Asset Save: T_Barril_Con_Tapa_RGB
+[2024.03.01-16.00.10:866][710]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_RGB.T_Barril_Con_Tapa_RGB
+[2024.03.01-16.00.11:685][789]LogSlate: Window 'T_Barril_Con_Tapa_RGB' being destroyed
+[2024.03.01-16.00.18:015][450]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Barril_Grande_RGB.T_Barril_Grande_RGB
+[2024.03.01-16.00.18:149][450]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-16.00.20:388][676]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Grande_RGB.T_Barril_Grande_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-16.00.21:898][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.00.21:991][817]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Grande_RGB
+[2024.03.01-16.00.21:991][817]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Grande_RGB1FAFA6D447DEFDD5662C8DA7176F5B31.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Grande_RGB.uasset'
+[2024.03.01-16.00.22:194][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 296 ms (total: 10.6 sec)
+[2024.03.01-16.00.22:195][817]AssetCheck: New page: Asset Save: T_Barril_Grande_RGB
+[2024.03.01-16.00.22:195][817]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Grande_RGB.T_Barril_Grande_RGB
+[2024.03.01-16.00.24:617][ 16]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Barril_Sin_Tapa_RGB.T_Barril_Sin_Tapa_RGB
+[2024.03.01-16.00.24:711][ 16]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-16.00.26:609][207]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Barril_Sin_Tapa_RGB.T_Barril_Sin_Tapa_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-16.00.27:679][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.00.27:787][301]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Sin_Tapa_RGB
+[2024.03.01-16.00.27:787][301]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Sin_Tapa_RGB0C0B5B52416A326795080D902F725646.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Sin_Tapa_RGB.uasset'
+[2024.03.01-16.00.28:000][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 321 ms (total: 10.9 sec)
+[2024.03.01-16.00.28:001][301]AssetCheck: New page: Asset Save: T_Barril_Sin_Tapa_RGB
+[2024.03.01-16.00.28:001][301]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Sin_Tapa_RGB.T_Barril_Sin_Tapa_RGB
+[2024.03.01-16.00.36:200][ 25]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB
+[2024.03.01-16.00.36:299][ 25]LogViewport: Scene viewport resized to 1183x718, mode Windowed.
+[2024.03.01-16.00.38:980][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.00.39:061][282]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Cofre_RGB
+[2024.03.01-16.00.39:062][282]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_RGB7867A9704C00F8A44F23EC9FF1DD98C2.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Cofre_RGB.uasset'
+[2024.03.01-16.00.39:069][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 11.0 sec)
+[2024.03.01-16.00.39:071][282]AssetCheck: New page: Asset Save: T_Cofre_RGB
+[2024.03.01-16.00.39:071][282]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Cofre_RGB.T_Cofre_RGB
+[2024.03.01-16.01.47:676][218]LogSlate: Window 'T_Cofre_RGB' being destroyed
+[2024.03.01-16.01.53:556][831]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Barril_Con_Tapa.M_Barril_Con_Tapa
+[2024.03.01-16.01.53:559][831]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-16.01.53:559][831]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-16.01.53:757][831]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.01.53:757][831]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.01.53:757][831]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.01.53:767][831]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: ================================================
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Total job queries 4363, among them cache hits 485 (11.12%)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Tracking 3874 distinct input hashes that result in 2724 distinct outputs (70.31%)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: RAM used: 70,28 MiB of 1,60 GiB budget. Usage: 4.29%
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Shaders Compiled: 3819
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Jobs assigned 3819, completed 3819 (100%)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Average time worker was idle: 22.19 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Time job spent in pending queue: average 66.38 s, longest 146.05 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Job execution time: average 3.07 s, max 11.77 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Job life time (pending + execution): average 69.45 s, max 149.99
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Shader code size: average 37,457 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 162.09 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Jobs were issued in 501 batches (only local compilation was used), average 7.62 jobs/batch
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Average processing rate: 23.56 jobs/sec
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Total thread time: 1176,222 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Total thread preprocess time: 79,532 s
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Percentage time preprocessing: 6.76%
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Effective parallelization: 7.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.30 sec, max 8.11 sec, min 1.28 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.69 sec, max 5.26 sec, min 2.22 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.36 sec, max 2.53 sec, min 0.38 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.09% of total time (compiled  134 times, average 1.15 sec, max 1.78 sec, min 0.92 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.79% of total time (compiled   96 times, average 0.71 sec, max 1.21 sec, min 0.44 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.73% of total time (compiled   96 times, average 0.58 sec, max 0.93 sec, min 0.14 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.23% of total time (compiled  128 times, average 0.39 sec, max 0.71 sec, min 0.13 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 4.10% of total time (compiled  128 times, average 0.38 sec, max 0.82 sec, min 0.26 sec)
+[2024.03.01-16.01.53:807][832]LogShaderCompilers: Display: ================================================
+[2024.03.01-16.01.53:842][833]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.01.53:843][833]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.01.53:843][833]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.01.53:843][833]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.01.53:843][833]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.01.58:567][159]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Barril_Grande.M_Barril_Grande
+[2024.03.01-16.01.58:571][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-16.01.58:571][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-16.01.58:709][159]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.01.58:710][159]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.01.58:710][159]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.01.58:747][159]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-16.01.58:807][161]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.01.58:808][161]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.01.58:808][161]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.01.58:808][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.01.58:808][161]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.02.01:515][350]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Barril_Sin_tapa.M_Barril_Sin_tapa
+[2024.03.01-16.02.01:519][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-16.02.01:519][350]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-16.02.01:648][350]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.02.01:648][350]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.01:648][350]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.02.01:685][350]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-16.02.01:738][352]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.02.01:738][352]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.02.01:738][352]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.02.01:738][352]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.01:738][352]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.02.04:100][511]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Cofre.M_Cofre
+[2024.03.01-16.02.04:106][511]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-16.02.04:106][511]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-16.02.04:240][511]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.02.04:240][511]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.04:240][511]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.02.04:283][511]LogViewport: Scene viewport resized to 312x358, mode Windowed.
+[2024.03.01-16.02.04:350][513]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.02.04:350][513]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.02.04:350][513]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.02.04:350][513]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.04:350][513]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.02.14:882][217]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.02.14:882][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.14:882][217]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.02.14:968][218]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.02.14:968][218]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.02.14:968][218]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.02.14:968][218]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.14:968][218]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.02.25:792][713]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.02.25:792][713]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.25:792][713]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.02.25:887][714]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.02.25:887][714]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.02.25:887][714]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.02.25:887][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.25:887][714]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.02.33:677][155]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.02.33:677][155]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.33:677][155]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.02.33:777][156]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.02.33:777][156]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-16.02.33:777][156]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.02.33:777][156]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-16.02.33:777][156]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.09:044][781]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.09:044][781]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.09:044][781]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.09:044][781]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.09:176][783]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.11:157][944]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.11:157][944]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.11:157][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.11:157][944]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: Base pass shader: 190 instructions
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.11:265][946]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.13:128][111]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.13:128][111]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.13:128][111]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.13:128][111]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: Base pass shader: 192 instructions
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.13:240][114]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.15:171][278]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.15:171][278]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.15:171][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.15:171][278]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: Base pass shader: 200 instructions
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.15:283][281]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.17:433][477]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.17:433][477]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.17:433][477]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.17:433][477]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.17:542][479]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.18:631][571]LogMaterialEditor: Applying material M_Cofre
+[2024.03.01-16.03.19:613][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.03.01-16.03.19:804][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.03.01-16.03.19:813][571]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.03.19:813][571]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.19:813][571]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.19:813][571]MaterialEditorStats: Shader Count: 2
+[2024.03.01-16.03.20:314][609]LogMaterialEditor: Saving and Compiling material M_Cofre
+[2024.03.01-16.03.20:419][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.03.20:543][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Cofre" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cofre.uasset" SILENT=true
+[2024.03.01-16.03.20:545][609]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Cofre
+[2024.03.01-16.03.20:545][609]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_CofreFBBC314A48463DA3219FBB9EF366A304.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Cofre.uasset'
+[2024.03.01-16.03.20:689][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 269 ms (total: 11.3 sec)
+[2024.03.01-16.03.20:689][609]AssetCheck: New page: Asset Save: M_Cofre
+[2024.03.01-16.03.20:689][609]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Cofre.M_Cofre
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.20:690][609]MaterialEditorStats: Shader Count: 23
+[2024.03.01-16.03.24:481][921]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.24:481][921]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.24:481][921]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.24:481][921]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.24:591][924]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.27:307][173]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.27:307][173]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.27:307][173]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.27:307][173]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.27:412][175]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.29:335][334]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.29:335][334]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.29:335][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.29:335][334]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.29:448][336]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.30:952][469]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.30:952][469]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.30:952][469]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.30:952][469]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.31:061][471]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-16.03.31:061][471]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.31:062][471]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.03.31:062][471]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.31:062][471]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.31:062][471]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.33:232][653]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.33:232][653]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.33:232][653]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.33:232][653]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.33:342][656]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.34:026][713]LogMaterialEditor: Saving and Compiling material M_Barril_Sin_tapa
+[2024.03.01-16.03.34:072][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.01-16.03.34:267][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.03.01-16.03.34:383][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.03.34:505][713]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Barril_Sin_tapa
+[2024.03.01-16.03.34:505][713]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_Sin_tapa0BCBDF0649688604EB3F7E94D1110DA5.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Barril_Sin_tapa.uasset'
+[2024.03.01-16.03.34:641][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 11.5 sec)
+[2024.03.01-16.03.34:642][713]AssetCheck: New page: Asset Save: M_Barril_Sin_tapa
+[2024.03.01-16.03.34:642][713]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Barril_Sin_tapa.M_Barril_Sin_tapa
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.34:642][713]MaterialEditorStats: Shader Count: 23
+[2024.03.01-16.03.45:368][630]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.45:368][630]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.45:368][630]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.45:368][630]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.45:474][633]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.47:185][791]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.47:185][791]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.47:185][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.47:185][791]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.47:326][793]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.51:043][103]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.51:043][103]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.51:043][103]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.51:043][103]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.51:193][105]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.03.51:194][105]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.51:194][105]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.03.51:194][105]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.51:194][105]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.51:194][105]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.53:286][273]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.53:286][273]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.53:286][273]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.53:287][273]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.53:393][275]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-16.03.53:394][275]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.53:394][275]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.03.53:394][275]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.53:394][275]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.53:394][275]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.55:025][406]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.03.55:025][406]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.55:025][406]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.55:025][406]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.55:136][409]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.03.55:928][476]LogMaterialEditor: Applying material M_Barril_Grande
+[2024.03.01-16.03.55:975][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.01-16.03.56:184][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.01-16.03.59:296][719]LogMaterialEditor: Saving and Compiling material M_Barril_Grande
+[2024.03.01-16.03.59:402][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.03.59:496][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/M_Barril_Grande" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Barril_Grande.uasset" SILENT=true
+[2024.03.01-16.03.59:497][719]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Barril_Grande
+[2024.03.01-16.03.59:497][719]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_GrandeB955DD5D4ABFED3BFE85A3BDD3182E39.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Barril_Grande.uasset'
+[2024.03.01-16.03.59:621][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 217 ms (total: 11.7 sec)
+[2024.03.01-16.03.59:622][719]AssetCheck: New page: Asset Save: M_Barril_Grande
+[2024.03.01-16.03.59:622][719]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Barril_Grande.M_Barril_Grande
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.03.59:622][719]MaterialEditorStats: Shader Count: 23
+[2024.03.01-16.04.05:078][179]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.04.05:078][179]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.04.05:078][179]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.05:078][179]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.05:185][182]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.04.07:777][438]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.04.07:777][438]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.04.07:777][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.07:777][438]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.07:925][440]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.04.09:744][602]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.04.09:744][602]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.09:744][602]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.09:744][602]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.09:856][605]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.04.11:599][765]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.04.11:599][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.11:599][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.11:599][765]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.11:709][767]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.04.14:826][ 30]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-16.04.14:826][ 30]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.14:826][ 30]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.14:826][ 30]MaterialEditorStats: Shader Count: 0
+[2024.03.01-16.04.14:934][ 33]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.04.14:935][ 33]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.14:935][ 33]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-16.04.14:935][ 33]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.14:935][ 33]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.14:935][ 33]MaterialEditorStats: Shader Count: 4
+[2024.03.01-16.04.16:274][147]LogMaterialEditor: Saving and Compiling material M_Barril_Con_Tapa
+[2024.03.01-16.04.16:320][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.01-16.04.16:522][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.03.01-16.04.16:636][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.04.16:754][147]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Barril_Con_Tapa
+[2024.03.01-16.04.16:754][147]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/M_Barril_Con_Tapa91C475BC4012363BF5C123AC6690E16E.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Barril_Con_Tapa.uasset'
+[2024.03.01-16.04.16:872][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 12.0 sec)
+[2024.03.01-16.04.16:873][147]AssetCheck: New page: Asset Save: M_Barril_Con_Tapa
+[2024.03.01-16.04.16:873][147]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Barril_Con_Tapa.M_Barril_Con_Tapa
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-16.04.16:873][147]MaterialEditorStats: Shader Count: 23
+[2024.03.01-16.04.18:138][244]LogSlate: Window 'M_Cofre' being destroyed
+[2024.03.01-16.04.18:144][244]LogSlate: Window 'M_Cofre' being destroyed
+[2024.03.01-16.04.18:163][244]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-16.04.18:163][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-16.04.18:190][244]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-16.04.18:190][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-16.04.18:217][244]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-16.04.18:217][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-16.04.18:242][244]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-16.04.18:242][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-16.04.23:587][868]Cmd: TRANSACTION UNDO
+[2024.03.01-16.04.23:587][868]LogEditorTransaction: Undo Move Elements
+[2024.03.01-16.04.33:706][963]Cmd: TRANSACTION UNDO
+[2024.03.01-16.04.33:706][963]LogEditorTransaction: Undo Move Elements
+[2024.03.01-16.05.06:224][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.01-16.05.06:244][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto5
+[2024.03.01-16.05.06:244][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Main_Auto5FA08EACC4AC6A139D0A51C8C92F4E828.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto5.umap'
+[2024.03.01-16.05.06:245][667]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto5.umap is in the /Temp path, will not scan.
+[2024.03.01-16.05.06:245][667]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Main_Auto5 is in the /Temp path, will not scan.
+[2024.03.01-16.05.06:245][667]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Main_Auto5 is in the /Temp path, will not scan.
+[2024.03.01-16.05.06:245][667]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.034
+[2024.03.01-16.05.06:245][667]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2024.03.01-16.05.06:246][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/MI_Cofre] ([1] browsable assets)...
+[2024.03.01-16.05.06:246][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Cofre]
+[2024.03.01-16.05.06:247][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Cofre_Auto5
+[2024.03.01-16.05.06:247][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Cofre_Auto5D02703E041EAFB0AE0448F9E5AEFA1F9.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Cofre_Auto5.uasset'
+[2024.03.01-16.05.06:247][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/MI_Barril_Sin_tapa] ([1] browsable assets)...
+[2024.03.01-16.05.06:247][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Sin_tapa]
+[2024.03.01-16.05.06:248][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Sin_tapa_Auto5
+[2024.03.01-16.05.06:248][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Sin_tapa_Auto52F8F819B4E9C6FFBECE9A5841A3870DB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Sin_tapa_Auto5.uasset'
+[2024.03.01-16.05.06:249][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/MI_Barril_Grande] ([1] browsable assets)...
+[2024.03.01-16.05.06:249][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Grande]
+[2024.03.01-16.05.06:249][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Grande_Auto5
+[2024.03.01-16.05.06:249][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Grande_Auto5B83025C640F3E3557C4110BE9495D1DB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Grande_Auto5.uasset'
+[2024.03.01-16.05.06:251][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/MI_Barril_Con_Tapa] ([1] browsable assets)...
+[2024.03.01-16.05.06:251][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_Barril_Con_Tapa]
+[2024.03.01-16.05.06:252][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_Barril_Con_Tapa_Auto5
+[2024.03.01-16.05.06:252][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Con_Tapa_Auto5CB0C9B594214D93BCE766CB98C93B4A9.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_Barril_Con_Tapa_Auto5.uasset'
+[2024.03.01-16.05.06:253][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/Textures/T_Cofre_N] ([1] browsable assets)...
+[2024.03.01-16.05.06:253][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Cofre_N]
+[2024.03.01-16.05.06:262][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Cofre_N_Auto5
+[2024.03.01-16.05.06:262][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_N_Auto5C84BF9A1461F62F43C7C98AAE357B3B5.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Cofre_N_Auto5.uasset'
+[2024.03.01-16.05.06:263][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2_Mat/Textures/T_Cofre_BC] ([1] browsable assets)...
+[2024.03.01-16.05.06:263][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Cofre_BC]
+[2024.03.01-16.05.06:271][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Cofre_BC_Auto5
+[2024.03.01-16.05.06:271][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_BC_Auto513741C86419B20E868AFEC9DDB55C381.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Cofre_BC_Auto5.uasset'
+[2024.03.01-16.05.06:272][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Con_Tapa_BC] ([1] browsable assets)...
+[2024.03.01-16.05.06:275][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_BC.T_Barril_Con_Tapa_BC]
+[2024.03.01-16.05.06:275][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Con_Tapa_BC]
+[2024.03.01-16.05.06:283][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Con_Tapa_BC_Auto5
+[2024.03.01-16.05.06:283][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Con_Tapa_BC_Auto5B2AB57B449DF3EB849D25CB9BD31C83C.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Con_Tapa_BC_Auto5.uasset'
+[2024.03.01-16.05.06:284][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Con_Tapa_N] ([1] browsable assets)...
+[2024.03.01-16.05.06:287][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_N.T_Barril_Con_Tapa_N]
+[2024.03.01-16.05.06:287][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Con_Tapa_N]
+[2024.03.01-16.05.06:296][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Con_Tapa_N_Auto5
+[2024.03.01-16.05.06:296][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Con_Tapa_N_Auto53919E8B943517F7454B6C0AEAEA7E9C3.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Con_Tapa_N_Auto5.uasset'
+[2024.03.01-16.05.06:297][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Grande_BC] ([1] browsable assets)...
+[2024.03.01-16.05.06:299][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Grande_BC.T_Barril_Grande_BC]
+[2024.03.01-16.05.06:299][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Grande_BC]
+[2024.03.01-16.05.06:308][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Grande_BC_Auto5
+[2024.03.01-16.05.06:308][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Grande_BC_Auto5DDE2CDAB417AE080DF86939D521156F0.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Grande_BC_Auto5.uasset'
+[2024.03.01-16.05.06:309][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Grande_N] ([1] browsable assets)...
+[2024.03.01-16.05.06:312][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Grande_N.T_Barril_Grande_N]
+[2024.03.01-16.05.06:312][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Grande_N]
+[2024.03.01-16.05.06:321][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Grande_N_Auto5
+[2024.03.01-16.05.06:321][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Grande_N_Auto5969B21BB46759F76B7E29FBEB08EF623.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Grande_N_Auto5.uasset'
+[2024.03.01-16.05.06:322][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Sin_tapa_BC] ([1] browsable assets)...
+[2024.03.01-16.05.06:324][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Sin_tapa_BC.T_Barril_Sin_tapa_BC]
+[2024.03.01-16.05.06:324][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Sin_tapa_BC]
+[2024.03.01-16.05.06:332][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Sin_tapa_BC_Auto5
+[2024.03.01-16.05.06:332][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Sin_tapa_BC_Auto53F89AEDF4F7FC781E7B7E294D8F56122.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Sin_tapa_BC_Auto5.uasset'
+[2024.03.01-16.05.06:333][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/Textures/T_Barril_Sin_Tapa_N] ([1] browsable assets)...
+[2024.03.01-16.05.06:335][667]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2_Mat/Textures/T_Barril_Sin_Tapa_N.T_Barril_Sin_Tapa_N]
+[2024.03.01-16.05.06:335][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/Textures/T_Barril_Sin_Tapa_N]
+[2024.03.01-16.05.06:345][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/Textures/T_Barril_Sin_Tapa_N_Auto5
+[2024.03.01-16.05.06:345][667]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Sin_Tapa_N_Auto5A1BE5E3843A34ED334E3509C9BF99BDA.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/Textures/T_Barril_Sin_Tapa_N_Auto5.uasset'
+[2024.03.01-16.05.06:346][667]LogFileHelpers: Auto-saving content packages took 0.100
+[2024.03.01-16.06.28:249][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.01-16.06.29:760][438]LogSlate: Window 'Save Content' being destroyed
+[2024.03.01-16.06.29:994][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.06.30:043][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.01-16.06.30:074][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.01-16.06.30:085][438]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-16.06.30:086][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MainC2F7BAC7430381346BA37CB94FC3AC1D.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-16.06.30:092][438]LogFileHelpers: Saving map 'Main' took 0.050
+[2024.03.01-16.06.30:095][438]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Barril_Con_Tapa
+[2024.03.01-16.06.30:095][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Con_Tapa58BE38A24732B5CE00494C8B14472B8B.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Barril_Con_Tapa.uasset'
+[2024.03.01-16.06.30:097][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/MI_Barril_Grande" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Barril_Grande.uasset" SILENT=true
+[2024.03.01-16.06.30:098][438]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Barril_Grande
+[2024.03.01-16.06.30:098][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Grande90B5BAC8410F483604AEEFB2C62F2061.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Barril_Grande.uasset'
+[2024.03.01-16.06.30:099][438]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Barril_Sin_tapa
+[2024.03.01-16.06.30:099][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Barril_Sin_tapa92DE70F243C7187FA2B569BAC7C7DB4C.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Barril_Sin_tapa.uasset'
+[2024.03.01-16.06.30:100][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2_Mat/MI_Cofre" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Cofre.uasset" SILENT=true
+[2024.03.01-16.06.30:101][438]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Cofre
+[2024.03.01-16.06.30:101][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/MI_Cofre9802C712488758B872459E8C9DBD7B91.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Cofre.uasset'
+[2024.03.01-16.06.30:158][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Con_Tapa_BC
+[2024.03.01-16.06.30:158][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Con_Tapa_BCB149DA514A49CB1C2B2D43BDCC28714C.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Con_Tapa_BC.uasset'
+[2024.03.01-16.06.30:232][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Con_Tapa_N
+[2024.03.01-16.06.30:232][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Con_Tapa_N5791D42744DD3957CE59A9B58EC11CBB.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Con_Tapa_N.uasset'
+[2024.03.01-16.06.30:287][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Grande_BC
+[2024.03.01-16.06.30:287][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Grande_BC5EB8DDB64AEDC21A382E1EA8DC98FE1F.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Grande_BC.uasset'
+[2024.03.01-16.06.30:363][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Grande_N
+[2024.03.01-16.06.30:363][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Grande_N215A0F7D43EBA6BF2B78CBA78EF4D4A0.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Grande_N.uasset'
+[2024.03.01-16.06.30:414][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Sin_tapa_BC
+[2024.03.01-16.06.30:414][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Sin_tapa_BC553896B949880CB90B809EBD72FEA93D.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Sin_tapa_BC.uasset'
+[2024.03.01-16.06.30:490][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Barril_Sin_Tapa_N
+[2024.03.01-16.06.30:490][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Barril_Sin_Tapa_N2D7D1034442E4E63B9D20D84FE8D6140.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Barril_Sin_Tapa_N.uasset'
+[2024.03.01-16.06.30:541][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Cofre_BC
+[2024.03.01-16.06.30:541][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_BC47400F4C49F93D14590A6FB716B9F003.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Cofre_BC.uasset'
+[2024.03.01-16.06.30:616][438]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Cofre_N
+[2024.03.01-16.06.30:617][438]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/T_Cofre_NC2306EB347B75665A5DBB8B21F5DE629.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Cofre_N.uasset'
+[2024.03.01-16.06.31:673][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.67 sec (total: 13.6 sec)
+[2024.03.01-16.06.31:678][438]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Barril_Con_Tapa.MI_Barril_Con_Tapa
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Barril_Grande.MI_Barril_Grande
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Barril_Sin_tapa.MI_Barril_Sin_tapa
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Cofre.MI_Cofre
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_BC.T_Barril_Con_Tapa_BC
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Con_Tapa_N.T_Barril_Con_Tapa_N
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Grande_BC.T_Barril_Grande_BC
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Grande_N.T_Barril_Grande_N
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Sin_tapa_BC.T_Barril_Sin_tapa_BC
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Barril_Sin_Tapa_N.T_Barril_Sin_Tapa_N
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Cofre_BC.T_Cofre_BC
+[2024.03.01-16.06.31:678][438]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Cofre_N.T_Cofre_N
+[2024.03.01-16.06.31:700][438]LogAutomationController: Ignoring very large delta of 3.46 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.01-16.06.32:461][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-16.06.32:510][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.01-16.06.32:538][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.03.01-16.06.32:549][489]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-16.06.32:550][489]LogSavePackage: Moving '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Saved/Main8B6EB7024B2182FC4AA391AD69A91832.tmp' to '../../../../../../Users/Aula 2/Documents/GitHub/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-16.06.32:555][489]LogFileHelpers: Saving map 'Main' took 0.045
+[2024.03.01-16.06.32:562][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 13.7 sec)
+[2024.03.01-16.06.32:563][489]AssetCheck: New page: Asset Save: Main
+[2024.03.01-16.06.32:563][489]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
