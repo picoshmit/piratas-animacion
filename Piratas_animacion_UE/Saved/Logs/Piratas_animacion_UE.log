@@ -3874,3 +3874,256 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.01-20.10.31:592][378]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Pared_Interior.MI_Pared_Interior
 [2024.03.01-20.10.31:592][378]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Pared_Interior_BC.T_Pared_Interior_BC
 [2024.03.01-20.10.31:592][378]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Pared_Interior_N.T_Pared_Interior_N
+[2024.03.01-20.18.22:384][429]LogStaticMesh: Display: Building static mesh Ventana_pequeña...
+[2024.03.01-20.18.22:422][429]LogStaticMesh: Built static mesh [0.04s] /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+[2024.03.01-20.18.22:564][436]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+[2024.03.01-20.18.22:564][436]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+[2024.03.01-20.18.22:566][436]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_1
+[2024.03.01-20.18.23:625][481]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+[2024.03.01-20.18.23:625][481]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+[2024.03.01-20.18.23:627][481]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_3
+[2024.03.01-20.18.24:085][500]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.03.01-20.18.32:494][315]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.03.01-20.18.37:709][773]LogStaticMesh: Display: Building static mesh Ventana_low...
+[2024.03.01-20.18.37:747][773]LogStaticMesh: Built static mesh [0.04s] /Game/1_props/Ventanas/Ventana_low.Ventana_low
+[2024.03.01-20.18.37:894][775]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low
+[2024.03.01-20.18.37:894][775]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low
+[2024.03.01-20.18.37:894][775]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_4
+[2024.03.01-20.18.41:112][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low
+[2024.03.01-20.18.41:112][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low
+[2024.03.01-20.18.41:114][857]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Ventanas/Ventana_low.Ventana_low as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_5
+[2024.03.01-20.20.15:150][474]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.03.01-20.20.15:161][474]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.03.01-20.20.15:178][475]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.03.01-20.20.22:333][124]LogContentBrowser: Attempting asset rename: NewMaterial -> M_ventanas
+[2024.03.01-20.20.22:334][124]LogContentBrowser: End creating deferred item NewMaterial
+[2024.03.01-20.20.25:697][376]LogContentBrowser: Deferred new asset file creation: M_ventanas_Inst
+[2024.03.01-20.20.25:711][376]LogContentBrowser: Creating deferred item: M_ventanas_Inst
+[2024.03.01-20.20.25:725][377]LogContentBrowser: Renaming the item being created (Deferred Item: M_ventanas_Inst).
+[2024.03.01-20.20.30:199][828]LogContentBrowser: Attempting asset rename: M_ventanas_Inst -> MI_ventanas
+[2024.03.01-20.20.30:199][828]LogContentBrowser: End creating deferred item M_ventanas_Inst
+[2024.03.01-20.20.32:233][952]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_ventanas.M_ventanas
+[2024.03.01-20.20.32:235][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.20.32:237][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.20.32:380][952]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.20.32:380][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.20.32:380][952]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.20.32:390][952]LogViewport: Scene viewport resized to 377x506, mode Windowed.
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Total job queries 8752, among them cache hits 1182 (13.51%)
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Tracking 7538 distinct input hashes that result in 5496 distinct outputs (72.91%)
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: RAM used: 101,91 MiB of 1,60 GiB budget. Usage: 6.22%
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Shaders Compiled: 7538
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Jobs assigned 7538, completed 7538 (100%)
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Average time worker was idle: 24.69 s
+[2024.03.01-20.20.32:422][953]LogShaderCompilers: Display: Time job spent in pending queue: average 117.14 s, longest 244.34 s
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Job execution time: average 2.61 s, max 35.03 s
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Job life time (pending + execution): average 119.74 s, max 244.55
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Shader code size: average 27,941 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 269.60 s
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Jobs were issued in 973 batches (only local compilation was used), average 7.75 jobs/batch
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Average processing rate: 27.96 jobs/sec
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Total thread time: 1972,587 s
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Total thread preprocess time: 128,847 s
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Percentage time preprocessing: 6.53%
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Effective parallelization: 7.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.43 sec, max 7.45 sec, min 4.00 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 8.10 sec, min 1.53 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.40% of total time (compiled  134 times, average 1.38 sec, max 1.88 sec, min 1.12 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 5.12% of total time (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.34% of total time (compiled   96 times, average 0.89 sec, max 1.57 sec, min 0.55 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.10% of total time (compiled  384 times, average 0.21 sec, max 0.62 sec, min 0.10 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.38% of total time (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.20.32:423][953]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.20.32:460][954]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-20.20.32:460][954]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-20.20.32:460][954]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-20.20.32:460][954]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.20.32:460][954]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.21.08:560][181]LogMaterialEditor: Saving and Compiling material M_ventanas
+[2024.03.01-20.21.08:564][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.21.08:628][181]LogSavePackage: Moving output files for package: /Game/2_Mat/M_ventanas
+[2024.03.01-20.21.08:628][181]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/M_ventanas466E9C864377774C13D6DEA47DC4192D.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_ventanas.uasset'
+[2024.03.01-20.21.08:637][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 12.4 sec)
+[2024.03.01-20.21.08:639][181]AssetCheck: New page: Asset Save: M_ventanas
+[2024.03.01-20.21.08:639][181]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_ventanas.M_ventanas
+[2024.03.01-20.21.09:500][253]LogSlate: Window 'M_ventanas' being destroyed
+[2024.03.01-20.21.09:505][253]LogSlate: Window 'M_ventanas' being destroyed
+[2024.03.01-20.21.09:522][253]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.21.09:522][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.21.44:354][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.01-20.21.44:377][ 87]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto1
+[2024.03.01-20.21.44:378][ 87]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main_Auto104E2CD11406035523EB438BAD397DC80.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto1.umap'
+[2024.03.01-20.21.44:379][ 87]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto1.umap is in the /Temp path, will not scan.
+[2024.03.01-20.21.44:379][ 87]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.035
+[2024.03.01-20.21.44:379][ 87]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2024.03.01-20.21.44:379][ 87]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2_Mat/MI_ventanas] ([1] browsable assets)...
+[2024.03.01-20.21.44:435][ 87]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2_Mat/MI_ventanas.MI_ventanas]
+[2024.03.01-20.21.44:435][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/2_Mat/MI_ventanas]
+[2024.03.01-20.21.44:436][ 87]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2_Mat/MI_ventanas_Auto1
+[2024.03.01-20.21.44:436][ 87]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/MI_ventanas_Auto1D5E547E04151484A120E7EA46B3B8739.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/2_Mat/MI_ventanas_Auto1.uasset'
+[2024.03.01-20.21.44:437][ 87]LogFileHelpers: Auto-saving content packages took 0.057
+[2024.03.01-20.21.51:326][557]LogInterchangeEngine: [Pending] Importing
+[2024.03.01-20.21.51:326][557]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/nicoc/OneDrive/Desktop/T_Ventanas_N.png]
+[2024.03.01-20.21.51:327][557]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-20.21.51:327][557]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/nicoc/OneDrive/Desktop/T_Ventanas_RGB.png]
+[2024.03.01-20.21.51:327][557]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-20.21.51:327][557]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/nicoc/OneDrive/Desktop/T_Ventanas_BC.png]
+[2024.03.01-20.21.51:370][558]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.01-20.21.51:393][559]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.01-20.21.51:397][559]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Ventanas_BC.T_Ventanas_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-20.21.51:452][560]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Ventanas_RGB.T_Ventanas_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.01-20.21.51:458][560]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.03.01-20.21.51:459][560]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.01-20.21.51:469][560]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Ventanas_N.T_Ventanas_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.03.01-20.21.51:586][560]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-20.21.51:606][560]LogInterchangeEngine: [Success] Import Done
+[2024.03.01-20.21.58:627][955]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_ventanas.M_ventanas
+[2024.03.01-20.21.58:631][955]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.21.58:631][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.21.58:779][955]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.21.58:779][955]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.21.58:779][955]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.21.58:794][955]LogViewport: Scene viewport resized to 377x506, mode Windowed.
+[2024.03.01-20.21.58:860][957]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-20.21.58:860][957]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-20.21.58:860][957]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-20.21.58:860][957]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.21.58:860][957]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.08:726][404]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Ventanas_RGB.T_Ventanas_RGB
+[2024.03.01-20.22.08:832][404]LogViewport: Scene viewport resized to 1426x1014, mode Windowed.
+[2024.03.01-20.22.10:639][524]LogTexture: Display: Building textures: /Game/2_Mat/Textures/T_Ventanas_RGB.T_Ventanas_RGB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.03.01-20.22.11:847][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.22.11:926][601]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Ventanas_RGB
+[2024.03.01-20.22.11:926][601]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/T_Ventanas_RGBC6A4E9004DD70C82A16328A3AF6C86AE.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Ventanas_RGB.uasset'
+[2024.03.01-20.22.11:937][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 12.5 sec)
+[2024.03.01-20.22.11:937][601]AssetCheck: New page: Asset Save: T_Ventanas_RGB
+[2024.03.01-20.22.11:937][601]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Ventanas_RGB.T_Ventanas_RGB
+[2024.03.01-20.22.17:576][854]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.17:576][854]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.22.17:576][854]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.17:627][855]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.03.01-20.22.17:627][855]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.03.01-20.22.17:627][855]MaterialEditorStats: Texture samplers: 2/16
+[2024.03.01-20.22.17:627][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.03.01-20.22.17:627][855]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.21:285][ 46]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.21:285][ 46]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-20.22.21:285][ 46]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.21:285][ 46]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: Base pass shader: 195 instructions
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.21:393][ 49]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.22:779][137]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.22:779][137]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-20.22.22:779][137]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.22:779][137]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.22:891][139]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.24:791][258]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.24:791][258]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.24:791][258]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.24:791][258]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.24:897][260]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.03.01-20.22.24:897][260]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.24:898][260]MaterialEditorStats: Texture samplers: 4/16
+[2024.03.01-20.22.24:898][260]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.24:898][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.24:898][260]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.26:472][357]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.26:472][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.26:472][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.26:472][357]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.26:592][359]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.03.01-20.22.26:593][359]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.26:593][359]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.22.26:593][359]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.26:593][359]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.26:593][359]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.28:125][457]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.22.28:125][457]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.28:125][457]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.28:125][457]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.28:241][460]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.22.28:896][498]LogMaterialEditor: Applying material M_ventanas
+[2024.03.01-20.22.29:019][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.01-20.22.29:165][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.01-20.22.29:172][498]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-20.22.29:172][498]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.29:172][498]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.29:172][498]MaterialEditorStats: Shader Count: 2
+[2024.03.01-20.22.29:655][528]LogMaterialEditor: Saving and Compiling material M_ventanas
+[2024.03.01-20.22.29:657][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.22.29:747][528]LogSavePackage: Moving output files for package: /Game/2_Mat/M_ventanas
+[2024.03.01-20.22.29:749][528]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/M_ventanasDE87B3CE42D652C12E00D887271E2371.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_ventanas.uasset'
+[2024.03.01-20.22.29:756][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 12.6 sec)
+[2024.03.01-20.22.29:757][528]AssetCheck: New page: Asset Save: M_ventanas
+[2024.03.01-20.22.29:757][528]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_ventanas.M_ventanas
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.22.29:757][528]MaterialEditorStats: Shader Count: 23
+[2024.03.01-20.22.30:687][585]LogSlate: Window 'M_ventanas' being destroyed
+[2024.03.01-20.22.30:691][585]LogSlate: Window 'M_ventanas' being destroyed
+[2024.03.01-20.22.30:707][585]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.22.30:707][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.22.38:718][159]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.01-20.22.46:070][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.22.46:131][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.01-20.22.46:153][748]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.22.46:154][748]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main4C3C2535415AF0CA736BEAAF20B3507B.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.22.46:158][748]LogFileHelpers: Saving map 'Main' took 0.055
+[2024.03.01-20.22.46:167][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 12.7 sec)
+[2024.03.01-20.22.46:169][748]AssetCheck: New page: Asset Save: Main
+[2024.03.01-20.22.46:169][748]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-20.22.48:753][974]Cmd: DELETE
+[2024.03.01-20.22.48:754][974]Cmd: ACTOR DELETE
+[2024.03.01-20.22.48:771][974]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.01-20.22.48:779][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.03.01-20.22.48:781][974]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.03.01-20.22.49:334][ 26]Cmd: DELETE
+[2024.03.01-20.22.49:334][ 26]Cmd: ACTOR DELETE
+[2024.03.01-20.22.49:336][ 26]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.01-20.22.49:341][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.01-20.22.49:342][ 26]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.03.01-20.22.52:359][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.01-20.22.53:457][330]LogSlate: Window 'Save Content' being destroyed
+[2024.03.01-20.22.53:484][330]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.22.53:539][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.01-20.22.53:554][330]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.22.53:554][330]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main624DB8C449D82FD8D4AAE99623D9B583.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.22.53:559][330]LogFileHelpers: Saving map 'Main' took 0.046
+[2024.03.01-20.22.53:560][330]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_ventanas
+[2024.03.01-20.22.53:560][330]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/MI_ventanas132191414756B933B97B8F8F7E6DD759.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_ventanas.uasset'
+[2024.03.01-20.22.53:613][330]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Ventanas_BC
+[2024.03.01-20.22.53:613][330]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/T_Ventanas_BCDEA976C04E82103B21D0599BB58CBF50.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Ventanas_BC.uasset'
+[2024.03.01-20.22.53:694][330]LogSavePackage: Moving output files for package: /Game/2_Mat/Textures/T_Ventanas_N
+[2024.03.01-20.22.53:695][330]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/T_Ventanas_N9C20E580483629518DE758A8AE9C8041.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/Textures/T_Ventanas_N.uasset'
+[2024.03.01-20.22.53:704][330]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 12.9 sec)
+[2024.03.01-20.22.53:705][330]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_ventanas.MI_ventanas
+[2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Ventanas_BC.T_Ventanas_BC
+[2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Ventanas_N.T_Ventanas_N
