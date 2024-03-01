@@ -4127,3 +4127,998 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_ventanas.MI_ventanas
 [2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Ventanas_BC.T_Ventanas_BC
 [2024.03.01-20.22.53:705][330]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2_Mat/Textures/T_Ventanas_N.T_Ventanas_N
+[2024.03.01-20.30.33:644][ 36]Cmd: DELETE
+[2024.03.01-20.30.33:645][ 36]Cmd: ACTOR DELETE
+[2024.03.01-20.30.33:647][ 36]LogEditorActor: Deleted Actor: BP_Barco_C
+[2024.03.01-20.30.33:655][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.01-20.30.33:658][ 36]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2024.03.01-20.30.44:437][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.01-20.30.44:555][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.30.52:723][ 39]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.30.52:756][ 39]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/1_props/Barco/SM_Barco.SM_Barco
+	Asset Type: StaticMesh
+[2024.03.01-20.30.53:163][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.01-20.30.53:171][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.01-20.30.53:177][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.01-20.31.01:205][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.01-20.31.02:899][860]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.31.02:927][860]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/3_BP/BP_Barco.BP_Barco
+	Asset Type: Blueprint
+[2024.03.01-20.31.03:177][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.01-20.31.03:202][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.01-20.31.03:210][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.01-20.31.03:217][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.01-20.31.16:188][200]LogLinker: Warning: [AssetLog] C:\Users\nicoc\OneDrive\Documents\Unreal Projects\piratas-animacion\Piratas_animacion_UE\Content\1_props\Barco\Barco.uasset: Failed to load '/Game/1_props/Barco/SM_Barco': Can't find file.
+[2024.03.01-20.31.16:188][200]LogLinker: Warning: [AssetLog] C:\Users\nicoc\OneDrive\Documents\Unreal Projects\piratas-animacion\Piratas_animacion_UE\Content\1_props\Barco\Barco.uasset: VerifyImport: Failed to load package for import object 'Package /Game/1_props/Barco/SM_Barco'
+[2024.03.01-20.31.24:875][ 32]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\nicoc\OneDrive\Desktop\Barco.fbx)
+[2024.03.01-20.31.24:914][ 32]LogFbx: Loading FBX Scene from C:\Users\nicoc\OneDrive\Desktop\Barco.fbx
+[2024.03.01-20.31.24:986][ 32]LogFbx: FBX Scene Loaded Succesfully
+[2024.03.01-20.31.40:135][ 32]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.03.01-20.31.40:230][ 32]LogFbx: Display: Triangulating static mesh Ventanas_Camarote
+[2024.03.01-20.31.40:951][ 32]LogFbx: Display: Triangulating static mesh Puerta
+[2024.03.01-20.31.40:972][ 32]LogFbx: Display: Triangulating static mesh Barco1
+[2024.03.01-20.31.40:987][ 32]LogFbx: Display: Triangulating static mesh Barco_details
+[2024.03.01-20.31.41:020][ 32]LogFbx: Display: Triangulating static mesh Poste
+[2024.03.01-20.31.41:042][ 32]LogFbx: Display: Triangulating static mesh Baranda_interior
+[2024.03.01-20.31.41:349][ 32]LogFbx: Display: Triangulating static mesh Ventanas_Barco
+[2024.03.01-20.31.41:368][ 32]LogFbx: Display: Triangulating static mesh Sogas
+[2024.03.01-20.31.42:325][ 32]LogFbx: Display: Triangulating static mesh Cofa
+[2024.03.01-20.31.42:338][ 32]LogFbx: Display: Triangulating static mesh Pared_Interior
+[2024.03.01-20.31.42:342][ 32]LogFbx: Display: Triangulating static mesh Mastil_Details
+[2024.03.01-20.31.42:449][ 32]LogFbx: Display: Triangulating static mesh Baranda3
+[2024.03.01-20.31.42:464][ 32]LogFbx: Display: Triangulating static mesh Barco_Front_details
+[2024.03.01-20.31.42:472][ 32]LogFbx: Display: Triangulating static mesh Piso
+[2024.03.01-20.31.42:680][ 32]LogStaticMesh: Display: Building static mesh Barco...
+[2024.03.01-20.31.43:646][ 32]LogStaticMesh: Built static mesh [0.97s] /Game/1_props/Barco.Barco
+[2024.03.01-20.31.43:999][ 32]LogStaticMesh: Warning: Barco has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.03.01-20.31.43:999][ 32]LogStaticMesh: Warning: Barco has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.03.01-20.31.44:049][ 32]FBXImport: FBX File Loading: Found name clash, node 'Barco' was renamed to 'Barco1' 
+[2024.03.01-20.31.44:049][ 32]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.03.01-20.31.44:049][ 32]FBXImport: Warning: Barco has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.03.01-20.31.44:049][ 32]FBXImport: Warning: Barco has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.03.01-20.31.45:132][ 32]LogMeshUtilities: Finished distance field build in 1.5s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 53% occupied, 55660 triangles, Barco
+[2024.03.01-20.31.47:143][202]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 53% occupied, 55660 triangles, Barco
+[2024.03.01-20.31.50:765][608]LogSlate: Window 'Message Log' being destroyed
+[2024.03.01-20.31.50:770][608]LogSlate: Window 'Message Log' being destroyed
+[2024.03.01-20.31.53:385][854]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco.Barco
+[2024.03.01-20.31.53:437][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.31.53:437][854]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.31.54:019][854]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.31.59:318][165]LogSlate: Window 'Barco' being destroyed
+[2024.03.01-20.31.59:324][165]LogSlate: Window 'Barco' being destroyed
+[2024.03.01-20.31.59:368][165]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.31.59:368][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.32.02:232][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.03.01-20.32.03:695][446]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.32.03:715][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.03.01-20.32.03:724][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.01-20.32.03:731][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.01-20.32.07:775][862]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\nicoc\OneDrive\Desktop\Barco.fbx)
+[2024.03.01-20.32.07:788][862]LogFbx: Loading FBX Scene from C:\Users\nicoc\OneDrive\Desktop\Barco.fbx
+[2024.03.01-20.32.07:855][862]LogFbx: FBX Scene Loaded Succesfully
+[2024.03.01-20.32.20:388][862]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.03.01-20.32.20:448][862]LogFbx: Display: Triangulating static mesh Ventanas_Camarote
+[2024.03.01-20.32.21:217][862]LogStaticMesh: Display: Building static mesh Barco_Ventanas_Camarote...
+[2024.03.01-20.32.21:753][862]LogStaticMesh: Built static mesh [0.54s] /Game/1_props/Barco_Ventanas_Camarote.Barco_Ventanas_Camarote
+[2024.03.01-20.32.21:849][862]LogFbx: Display: Triangulating static mesh Puerta
+[2024.03.01-20.32.21:872][862]LogStaticMesh: Display: Building static mesh Barco_Puerta...
+[2024.03.01-20.32.21:884][862]LogStaticMesh: Built static mesh [0.01s] /Game/1_props/Barco_Puerta.Barco_Puerta
+[2024.03.01-20.32.21:893][862]LogFbx: Display: Triangulating static mesh Barco1
+[2024.03.01-20.32.21:916][862]LogStaticMesh: Display: Building static mesh Barco_Barco1...
+[2024.03.01-20.32.21:927][862]LogStaticMesh: Built static mesh [0.01s] /Game/1_props/Barco_Barco1.Barco_Barco1
+[2024.03.01-20.32.21:939][862]LogFbx: Display: Triangulating static mesh Barco_details
+[2024.03.01-20.32.21:995][862]LogStaticMesh: Display: Building static mesh Barco_Barco_details...
+[2024.03.01-20.32.22:037][862]LogStaticMesh: Built static mesh [0.04s] /Game/1_props/Barco_Barco_details.Barco_Barco_details
+[2024.03.01-20.32.22:050][862]LogFbx: Display: Triangulating static mesh Poste
+[2024.03.01-20.32.22:093][862]LogStaticMesh: Display: Building static mesh Barco_Poste...
+[2024.03.01-20.32.22:122][862]LogStaticMesh: Built static mesh [0.03s] /Game/1_props/Barco_Poste.Barco_Poste
+[2024.03.01-20.32.22:135][862]LogFbx: Display: Triangulating static mesh Baranda_interior
+[2024.03.01-20.32.22:714][862]LogStaticMesh: Display: Building static mesh Barco_Baranda_interior...
+[2024.03.01-20.32.23:106][862]LogStaticMesh: Built static mesh [0.39s] /Game/1_props/Barco_Baranda_interior.Barco_Baranda_interior
+[2024.03.01-20.32.23:159][862]LogFbx: Display: Triangulating static mesh Ventanas_Barco
+[2024.03.01-20.32.23:194][862]LogStaticMesh: Display: Building static mesh Barco_Ventanas_Barco...
+[2024.03.01-20.32.23:224][862]LogStaticMesh: Built static mesh [0.03s] /Game/1_props/Barco_Ventanas_Barco.Barco_Ventanas_Barco
+[2024.03.01-20.32.23:235][862]LogFbx: Display: Triangulating static mesh Sogas
+[2024.03.01-20.32.23:756][862]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 61% occupied, 354 triangles, Barco_Barco1
+[2024.03.01-20.32.24:746][862]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 726 triangles, Barco_Barco_details
+[2024.03.01-20.32.25:114][862]LogStaticMesh: Display: Building static mesh Barco_Sogas...
+[2024.03.01-20.32.27:476][862]LogStaticMesh: Built static mesh [2.36s] /Game/1_props/Barco_Sogas.Barco_Sogas
+[2024.03.01-20.32.27:622][862]LogStaticMesh: Warning: Barco_Sogas has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.03.01-20.32.27:622][862]LogStaticMesh: Warning: Barco_Sogas has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.03.01-20.32.27:633][862]LogFbx: Display: Triangulating static mesh Cofa
+[2024.03.01-20.32.27:648][862]LogStaticMesh: Display: Building static mesh Barco_Cofa...
+[2024.03.01-20.32.27:668][862]LogStaticMesh: Built static mesh [0.02s] /Game/1_props/Barco_Cofa.Barco_Cofa
+[2024.03.01-20.32.27:676][862]LogFbx: Display: Triangulating static mesh Pared_Interior
+[2024.03.01-20.32.27:677][862]LogStaticMesh: Display: Building static mesh Barco_Pared_Interior...
+[2024.03.01-20.32.27:679][862]LogStaticMesh: Built static mesh [0.00s] /Game/1_props/Barco_Pared_Interior.Barco_Pared_Interior
+[2024.03.01-20.32.27:687][862]LogFbx: Display: Triangulating static mesh Mastil_Details
+[2024.03.01-20.32.27:884][862]LogStaticMesh: Display: Building static mesh Barco_Mastil_Details...
+[2024.03.01-20.32.27:988][862]LogStaticMesh: Built static mesh [0.10s] /Game/1_props/Barco_Mastil_Details.Barco_Mastil_Details
+[2024.03.01-20.32.28:010][862]LogFbx: Display: Triangulating static mesh Baranda3
+[2024.03.01-20.32.28:034][862]LogStaticMesh: Display: Building static mesh Barco_Baranda3...
+[2024.03.01-20.32.28:056][862]LogStaticMesh: Built static mesh [0.02s] /Game/1_props/Barco_Baranda3.Barco_Baranda3
+[2024.03.01-20.32.28:068][862]LogFbx: Display: Triangulating static mesh Barco_Front_details
+[2024.03.01-20.32.28:076][862]LogStaticMesh: Display: Building static mesh Barco_Barco_Front_details...
+[2024.03.01-20.32.28:082][862]LogStaticMesh: Built static mesh [0.01s] /Game/1_props/Barco_Barco_Front_details.Barco_Barco_Front_details
+[2024.03.01-20.32.28:091][862]LogFbx: Display: Triangulating static mesh Piso
+[2024.03.01-20.32.28:095][862]LogStaticMesh: Display: Building static mesh Barco_Piso...
+[2024.03.01-20.32.28:100][862]LogStaticMesh: Built static mesh [0.01s] /Game/1_props/Barco_Piso.Barco_Piso
+[2024.03.01-20.32.29:879][862]FBXImport: FBX File Loading: Found name clash, node 'Barco' was renamed to 'Barco1' 
+[2024.03.01-20.32.29:879][862]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.03.01-20.32.29:879][862]FBXImport: Warning: Barco_Sogas has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.03.01-20.32.29:879][862]FBXImport: Warning: Barco_Sogas has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.03.01-20.32.31:037][940]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x70 sparse distance field, 0.9Mb total, 0.0Mb always loaded, 47% occupied, 455 triangles, Barco_Ventanas_Barco
+[2024.03.01-20.32.31:767][  4]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 726 triangles, Barco_Barco_details
+[2024.03.01-20.32.31:918][ 20]LogSlate: Window 'Message Log' being destroyed
+[2024.03.01-20.32.31:928][ 20]LogSlate: Window 'Message Log' being destroyed
+[2024.03.01-20.32.33:676][183]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x84 sparse distance field, 1.2Mb total, 0.0Mb always loaded, 50% occupied, 302 triangles, Barco_Baranda3
+[2024.03.01-20.32.37:049][433]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 61% occupied, 354 triangles, Barco_Barco1
+[2024.03.01-20.33.11:163][529]LogContentBrowser: Attempting asset rename: Barco_Ventanas_Camarote -> Ventanas_Camarote
+[2024.03.01-20.33.11:207][529]LogMetaData: Removing '/Game/1_props/Ventanas_Camarote.Ventanas_Camarote' ref from Metadata '/Game/1_props/Barco_Ventanas_Camarote.PackageMetaData'
+[2024.03.01-20.33.11:211][529]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.11:268][529]LogSavePackage: Moving output files for package: /Game/1_props/Ventanas_Camarote
+[2024.03.01-20.33.11:268][529]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_Camarote59C373184AB72A49611F4BA9C1C8550E.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Ventanas_Camarote.uasset'
+[2024.03.01-20.33.11:278][529]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 13.0 sec)
+[2024.03.01-20.33.11:291][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.03.01-20.33.11:300][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.01-20.33.11:306][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.01-20.33.11:308][529]AssetCheck: New page: Asset Save: Ventanas_Camarote
+[2024.03.01-20.33.11:308][529]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.33.14:426][761]LogContentBrowser: Attempting asset rename: Barco_Ventanas_Barco -> Ventanas_Barco
+[2024.03.01-20.33.14:457][761]LogMetaData: Removing '/Game/1_props/Ventanas_Barco.Ventanas_Barco' ref from Metadata '/Game/1_props/Barco_Ventanas_Barco.PackageMetaData'
+[2024.03.01-20.33.14:459][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.14:504][761]LogSavePackage: Moving output files for package: /Game/1_props/Ventanas_Barco
+[2024.03.01-20.33.14:504][761]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_Barco1DBA038A420CB437D45F09B17F2A77EE.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Ventanas_Barco.uasset'
+[2024.03.01-20.33.14:515][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 13.1 sec)
+[2024.03.01-20.33.14:525][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.01-20.33.14:532][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.01-20.33.14:540][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.01-20.33.14:542][761]AssetCheck: New page: Asset Save: Ventanas_Barco
+[2024.03.01-20.33.14:542][761]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Ventanas_Barco.Ventanas_Barco
+[2024.03.01-20.33.17:756][988]LogContentBrowser: Attempting asset rename: Barco_Sogas -> Sogas
+[2024.03.01-20.33.17:787][988]LogMetaData: Removing '/Game/1_props/Sogas.Sogas' ref from Metadata '/Game/1_props/Barco_Sogas.PackageMetaData'
+[2024.03.01-20.33.17:788][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.17:829][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Sogas" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Sogas.uasset" SILENT=true
+[2024.03.01-20.33.17:848][988]LogSavePackage: Moving output files for package: /Game/1_props/Sogas
+[2024.03.01-20.33.17:848][988]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/SogasCE21A40B4A0FAFB8E38E2596C620B0D4.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Sogas.uasset'
+[2024.03.01-20.33.17:858][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 13.1 sec)
+[2024.03.01-20.33.17:870][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.01-20.33.17:877][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.03.01-20.33.17:884][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.03.01-20.33.17:887][988]AssetCheck: New page: Asset Save: Sogas
+[2024.03.01-20.33.17:887][988]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Sogas.Sogas
+[2024.03.01-20.33.21:341][266]LogContentBrowser: Attempting asset rename: Barco_Puerta -> Puerta
+[2024.03.01-20.33.21:372][266]LogMetaData: Removing '/Game/1_props/Puerta.Puerta' ref from Metadata '/Game/1_props/Barco_Puerta.PackageMetaData'
+[2024.03.01-20.33.21:373][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.21:415][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Puerta" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta.uasset" SILENT=true
+[2024.03.01-20.33.21:419][266]LogSavePackage: Moving output files for package: /Game/1_props/Puerta
+[2024.03.01-20.33.21:419][266]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Puerta677FC72B4A94E27FDFD954A47F89351C.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta.uasset'
+[2024.03.01-20.33.21:431][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 13.2 sec)
+[2024.03.01-20.33.21:440][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.01-20.33.21:448][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.03.01-20.33.21:455][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.03.01-20.33.21:456][266]AssetCheck: New page: Asset Save: Puerta
+[2024.03.01-20.33.21:456][266]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Puerta.Puerta
+[2024.03.01-20.33.24:629][504]LogContentBrowser: Attempting asset rename: Barco_Poste -> Poste
+[2024.03.01-20.33.24:661][504]LogMetaData: Removing '/Game/1_props/Poste.Poste' ref from Metadata '/Game/1_props/Barco_Poste.PackageMetaData'
+[2024.03.01-20.33.24:662][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.24:726][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Poste" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Poste.uasset" SILENT=true
+[2024.03.01-20.33.24:729][504]LogSavePackage: Moving output files for package: /Game/1_props/Poste
+[2024.03.01-20.33.24:729][504]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/PosteF352924646D750CD53B69A838C3116AB.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Poste.uasset'
+[2024.03.01-20.33.24:751][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 13.3 sec)
+[2024.03.01-20.33.24:763][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.01-20.33.24:772][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.01-20.33.24:777][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.01-20.33.24:779][504]AssetCheck: New page: Asset Save: Poste
+[2024.03.01-20.33.24:780][504]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Poste.Poste
+[2024.03.01-20.33.27:698][622]LogContentBrowser: Attempting asset rename: Barco_Piso -> Piso
+[2024.03.01-20.33.27:727][622]LogMetaData: Removing '/Game/1_props/Piso.Piso' ref from Metadata '/Game/1_props/Barco_Piso.PackageMetaData'
+[2024.03.01-20.33.27:728][622]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.27:786][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Piso" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Piso.uasset" SILENT=true
+[2024.03.01-20.33.27:789][622]LogSavePackage: Moving output files for package: /Game/1_props/Piso
+[2024.03.01-20.33.27:789][622]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Piso1CADB94D44FBCB04B4B114BCF841CDA7.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Piso.uasset'
+[2024.03.01-20.33.27:798][622]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 13.4 sec)
+[2024.03.01-20.33.27:809][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.01-20.33.27:816][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.01-20.33.27:825][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.03.01-20.33.27:828][622]AssetCheck: New page: Asset Save: Piso
+[2024.03.01-20.33.27:828][622]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Piso.Piso
+[2024.03.01-20.33.30:412][822]LogContentBrowser: Attempting asset rename: Barco_Pared_Interior -> Pared_Interior
+[2024.03.01-20.33.30:442][822]LogMetaData: Removing '/Game/1_props/Pared_Interior.Pared_Interior' ref from Metadata '/Game/1_props/Barco_Pared_Interior.PackageMetaData'
+[2024.03.01-20.33.30:443][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.30:513][822]LogSavePackage: Moving output files for package: /Game/1_props/Pared_Interior
+[2024.03.01-20.33.30:513][822]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Pared_Interior494C17604CF54BA4BCF13996F2DA416E.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Pared_Interior.uasset'
+[2024.03.01-20.33.30:524][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 13.4 sec)
+[2024.03.01-20.33.30:535][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.01-20.33.30:542][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.01-20.33.30:547][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.01-20.33.30:549][822]AssetCheck: New page: Asset Save: Pared_Interior
+[2024.03.01-20.33.30:549][822]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Pared_Interior.Pared_Interior
+[2024.03.01-20.33.33:582][ 54]LogContentBrowser: Attempting asset rename: Barco_Mastil_Details -> Mastil_Details
+[2024.03.01-20.33.33:612][ 54]LogMetaData: Removing '/Game/1_props/Mastil_Details.Mastil_Details' ref from Metadata '/Game/1_props/Barco_Mastil_Details.PackageMetaData'
+[2024.03.01-20.33.33:614][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.33:664][ 54]LogSavePackage: Moving output files for package: /Game/1_props/Mastil_Details
+[2024.03.01-20.33.33:664][ 54]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Mastil_DetailsAF03F37749C7AD708F748F8318538430.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Mastil_Details.uasset'
+[2024.03.01-20.33.33:673][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 13.5 sec)
+[2024.03.01-20.33.33:683][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.01-20.33.33:691][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.01-20.33.33:701][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.03.01-20.33.33:702][ 54]AssetCheck: New page: Asset Save: Mastil_Details
+[2024.03.01-20.33.33:702][ 54]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Mastil_Details.Mastil_Details
+[2024.03.01-20.33.36:689][275]LogContentBrowser: Attempting asset rename: Barco_Cofa -> Cofa
+[2024.03.01-20.33.36:720][275]LogMetaData: Removing '/Game/1_props/Cofa.Cofa' ref from Metadata '/Game/1_props/Barco_Cofa.PackageMetaData'
+[2024.03.01-20.33.36:721][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.36:765][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Cofa" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Cofa.uasset" SILENT=true
+[2024.03.01-20.33.36:768][275]LogSavePackage: Moving output files for package: /Game/1_props/Cofa
+[2024.03.01-20.33.36:768][275]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/CofaC191FDDF4BF5B6ACCC29D980B3BA9FA1.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Cofa.uasset'
+[2024.03.01-20.33.36:778][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 13.5 sec)
+[2024.03.01-20.33.36:789][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.01-20.33.36:796][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.01-20.33.36:803][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.03.01-20.33.36:805][275]AssetCheck: New page: Asset Save: Cofa
+[2024.03.01-20.33.36:805][275]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Cofa.Cofa
+[2024.03.01-20.33.39:686][488]LogContentBrowser: Attempting asset rename: Barco_Barco_Front_details -> Barco_Front_details
+[2024.03.01-20.33.39:719][488]LogMetaData: Removing '/Game/1_props/Barco_Front_details.Barco_Front_details' ref from Metadata '/Game/1_props/Barco_Barco_Front_details.PackageMetaData'
+[2024.03.01-20.33.39:720][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.39:756][488]LogSavePackage: Moving output files for package: /Game/1_props/Barco_Front_details
+[2024.03.01-20.33.39:756][488]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_Front_details1B22C756450BA86B901A439E3B1A6936.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco_Front_details.uasset'
+[2024.03.01-20.33.39:768][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 13.6 sec)
+[2024.03.01-20.33.39:779][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.01-20.33.39:786][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.01-20.33.39:791][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.01-20.33.39:793][488]AssetCheck: New page: Asset Save: Barco_Front_details
+[2024.03.01-20.33.39:793][488]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco_Front_details.Barco_Front_details
+[2024.03.01-20.33.43:526][753]LogContentBrowser: Attempting asset rename: Barco_Barco_details -> Barco_details
+[2024.03.01-20.33.43:556][753]LogMetaData: Removing '/Game/1_props/Barco_details.Barco_details' ref from Metadata '/Game/1_props/Barco_Barco_details.PackageMetaData'
+[2024.03.01-20.33.43:558][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.43:592][753]LogSavePackage: Moving output files for package: /Game/1_props/Barco_details
+[2024.03.01-20.33.43:592][753]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_details26DD3AC049F794B71606779DC7BC4B40.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco_details.uasset'
+[2024.03.01-20.33.43:601][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 13.6 sec)
+[2024.03.01-20.33.43:611][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.01-20.33.43:622][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.01-20.33.43:628][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.01-20.33.43:630][753]AssetCheck: New page: Asset Save: Barco_details
+[2024.03.01-20.33.43:630][753]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco_details.Barco_details
+[2024.03.01-20.33.46:149][945]LogContentBrowser: Attempting asset rename: Barco_Barco1 -> Barco1
+[2024.03.01-20.33.46:183][945]LogMetaData: Removing '/Game/1_props/Barco1.Barco1' ref from Metadata '/Game/1_props/Barco_Barco1.PackageMetaData'
+[2024.03.01-20.33.46:184][945]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.46:246][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Barco1" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco1.uasset" SILENT=true
+[2024.03.01-20.33.46:250][945]LogSavePackage: Moving output files for package: /Game/1_props/Barco1
+[2024.03.01-20.33.46:251][945]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco1A3987A0E4A069F888BCE4098D832A279.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco1.uasset'
+[2024.03.01-20.33.46:259][945]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 13.7 sec)
+[2024.03.01-20.33.46:272][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.01-20.33.46:279][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.01-20.33.46:285][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.03.01-20.33.46:287][945]AssetCheck: New page: Asset Save: Barco1
+[2024.03.01-20.33.46:287][945]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco1.Barco1
+[2024.03.01-20.33.49:470][187]LogContentBrowser: Attempting asset rename: Barco_Baranda3 -> Baranda3
+[2024.03.01-20.33.49:501][187]LogMetaData: Removing '/Game/1_props/Baranda3.Baranda3' ref from Metadata '/Game/1_props/Barco_Baranda3.PackageMetaData'
+[2024.03.01-20.33.49:502][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.33.49:549][187]LogSavePackage: Moving output files for package: /Game/1_props/Baranda3
+[2024.03.01-20.33.49:549][187]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda3100B40704BE9CBF0DB6C168D64A1F663.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Baranda3.uasset'
+[2024.03.01-20.33.49:560][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 13.8 sec)
+[2024.03.01-20.33.49:571][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.01-20.33.49:578][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.01-20.33.49:584][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.01-20.33.49:586][187]AssetCheck: New page: Asset Save: Baranda3
+[2024.03.01-20.33.49:586][187]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Baranda3.Baranda3
+[2024.03.01-20.33.53:891][475]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Barco1.Barco1
+[2024.03.01-20.33.53:892][475]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Barco1.Barco1
+[2024.03.01-20.33.53:892][475]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Barco1.Barco1 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_6
+[2024.03.01-20.33.54:854][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Barco1.Barco1
+[2024.03.01-20.33.54:854][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/1_props/Barco1.Barco1
+[2024.03.01-20.33.54:855][558]LogActorFactory: Actor Factory spawned StaticMesh /Game/1_props/Barco1.Barco1 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_7
+[2024.03.01-20.33.55:915][654]Cmd: TRANSACTION UNDO
+[2024.03.01-20.33.55:915][654]LogEditorTransaction: Undo Create Actors
+[2024.03.01-20.34.01:727][ 76]LogContentBrowser: Attempting asset rename: Barco1 -> Barco
+[2024.03.01-20.34.01:756][ 76]LogMetaData: Removing '/Game/1_props/Barco.Barco' ref from Metadata '/Game/1_props/Barco1.PackageMetaData'
+[2024.03.01-20.34.01:758][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.34.01:787][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Barco" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco.uasset" SILENT=true
+[2024.03.01-20.34.01:791][ 76]LogSavePackage: Moving output files for package: /Game/1_props/Barco
+[2024.03.01-20.34.01:791][ 76]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/BarcoC7AD87F74CF58086C30CFEA07A26F08B.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco.uasset'
+[2024.03.01-20.34.01:801][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 13.8 sec)
+[2024.03.01-20.34.01:810][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.03.01-20.34.01:822][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.01-20.34.01:831][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.01-20.34.01:833][ 76]AssetCheck: New page: Asset Save: Barco
+[2024.03.01-20.34.01:833][ 76]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco.Barco
+[2024.03.01-20.34.06:195][422]LogContentBrowser: Attempting asset rename: Barco_Baranda_interior -> Baranda_interior
+[2024.03.01-20.34.06:225][422]LogMetaData: Removing '/Game/1_props/Baranda_interior.Baranda_interior' ref from Metadata '/Game/1_props/Barco_Baranda_interior.PackageMetaData'
+[2024.03.01-20.34.06:226][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.34.06:273][422]LogSavePackage: Moving output files for package: /Game/1_props/Baranda_interior
+[2024.03.01-20.34.06:273][422]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda_interiorED13B4F549E0ED97342D13ACEF39B634.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Baranda_interior.uasset'
+[2024.03.01-20.34.06:285][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 13.9 sec)
+[2024.03.01-20.34.06:293][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.03.01-20.34.06:302][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.01-20.34.06:309][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.01-20.34.06:310][422]AssetCheck: New page: Asset Save: Baranda_interior
+[2024.03.01-20.34.06:311][422]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Baranda_interior.Baranda_interior
+[2024.03.01-20.34.17:468][443]LogSlate: Window 'Failed Renames' being destroyed
+[2024.03.01-20.34.21:393][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.01-20.34.36:368][799]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.34.36:395][799]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/1_props/Puerta/Puerta.Puerta
+	Asset Type: StaticMesh
+[2024.03.01-20.34.36:658][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.03.01-20.34.36:666][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.01-20.34.36:673][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.01-20.34.39:732][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.01-20.34.39:745][114]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto2
+[2024.03.01-20.34.39:745][114]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main_Auto24E554FE04434570D5B90858D4DCE91AD.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto2.umap'
+[2024.03.01-20.34.39:745][114]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Autosaves/Game/Main_Auto2.umap is in the /Temp path, will not scan.
+[2024.03.01-20.34.39:745][114]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.023
+[2024.03.01-20.34.39:745][114]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.023
+[2024.03.01-20.34.44:219][515]LogMetaData: Removing '/Game/1_props/Puerta/Puerta.Puerta' ref from Metadata '/Game/1_props/Puerta.PackageMetaData'
+[2024.03.01-20.34.44:220][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.34.44:252][515]LogSavePackage: Moving output files for package: /Game/1_props/Puerta/Puerta
+[2024.03.01-20.34.44:252][515]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Puerta78CBBB094C6854398C7C84BE03CCCECE.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta/Puerta.uasset'
+[2024.03.01-20.34.44:259][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 13.9 sec)
+[2024.03.01-20.34.44:271][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.01-20.34.44:279][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.01-20.34.44:286][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.01-20.34.44:301][515]AssetCheck: New page: Asset Save: Puerta
+[2024.03.01-20.34.44:301][515]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Puerta/Puerta.Puerta
+[2024.03.01-20.34.47:059][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.01-20.34.48:187][767]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.34.48:195][767]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/1_props/Ventanas/Ventana_pequeña.Ventana_pequeña
+	Asset Type: StaticMesh
+[2024.03.01-20.34.48:456][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.01-20.34.48:465][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.01-20.34.48:473][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.01-20.34.49:093][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.01-20.34.50:081][814]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.34.50:092][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.01-20.34.50:101][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.01-20.34.50:110][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.01-20.34.56:987][410]LogMetaData: Removing '/Game/1_props/Ventanas/Ventanas_Camarote.Ventanas_Camarote' ref from Metadata '/Game/1_props/Ventanas_Camarote.PackageMetaData'
+[2024.03.01-20.34.56:988][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.34.57:030][410]LogSavePackage: Moving output files for package: /Game/1_props/Ventanas/Ventanas_Camarote
+[2024.03.01-20.34.57:030][410]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_Camarote16254BAC4F8F733F84D8DBB06BAC3AE8.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Ventanas/Ventanas_Camarote.uasset'
+[2024.03.01-20.34.57:037][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 14.0 sec)
+[2024.03.01-20.34.57:048][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.03.01-20.34.57:054][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.01-20.34.57:063][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.01-20.34.57:078][410]AssetCheck: New page: Asset Save: Ventanas_Camarote
+[2024.03.01-20.34.57:078][410]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Ventanas/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.35.08:887][672]LogMetaData: Removing '/Game/1_props/Ventanas_Camarote.Ventanas_Camarote' ref from Metadata '/Game/1_props/Ventanas/Ventanas_Camarote.PackageMetaData'
+[2024.03.01-20.35.08:888][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.35.08:929][672]LogSavePackage: Moving output files for package: /Game/1_props/Ventanas_Camarote
+[2024.03.01-20.35.08:929][672]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_CamaroteB4C4915D44FF889F0E12199BA6ECF3FF.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Ventanas_Camarote.uasset'
+[2024.03.01-20.35.08:936][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 14.0 sec)
+[2024.03.01-20.35.08:948][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.01-20.35.08:956][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.01-20.35.08:962][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.01-20.35.08:977][672]AssetCheck: New page: Asset Save: Ventanas_Camarote
+[2024.03.01-20.35.08:977][672]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.35.15:076][284]LogMetaData: Removing '/Game/1_props/Puerta.Puerta' ref from Metadata '/Game/1_props/Puerta/Puerta.PackageMetaData'
+[2024.03.01-20.35.15:077][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.35.15:105][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_props/Puerta" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta.uasset" SILENT=true
+[2024.03.01-20.35.15:109][284]LogSavePackage: Moving output files for package: /Game/1_props/Puerta
+[2024.03.01-20.35.15:109][284]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Puerta60E3B0D940AE3687CCEEEBA8F634E5ED.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta.uasset'
+[2024.03.01-20.35.15:110][284]LogSavePackage: Moving output files for package: /Game/1_props/Puerta/Puerta
+[2024.03.01-20.35.15:111][284]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Puerta6D50FB2E42ADEFAC66B441939B0E5118.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Puerta/Puerta.uasset'
+[2024.03.01-20.35.15:118][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 14.0 sec)
+[2024.03.01-20.35.15:133][284]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-20.35.15:133][284]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Puerta.Puerta
+[2024.03.01-20.35.15:133][284]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/1_props/Puerta/Puerta.Puerta
+[2024.03.01-20.35.19:664][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.01-20.35.22:917][712]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.01-20.35.22:924][712]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/1_props/Puerta/Puerta.Puerta
+	Asset Type: ObjectRedirector
+[2024.03.01-20.35.23:189][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.01-20.35.23:196][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.01-20.35.23:205][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.01-20.35.29:415][203]LogContentBrowser: Attempting asset rename: Baranda3 -> Baranda
+[2024.03.01-20.35.29:444][203]LogMetaData: Removing '/Game/1_props/Baranda.Baranda' ref from Metadata '/Game/1_props/Baranda3.PackageMetaData'
+[2024.03.01-20.35.29:445][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.35.29:471][203]LogSavePackage: Moving output files for package: /Game/1_props/Baranda
+[2024.03.01-20.35.29:471][203]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/BarandaC734AF9944A89C1B66A91CBADA10DB05.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Baranda.uasset'
+[2024.03.01-20.35.29:482][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 14.1 sec)
+[2024.03.01-20.35.29:493][203]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.03.01-20.35.29:502][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.01-20.35.29:509][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.01-20.35.29:512][203]AssetCheck: New page: Asset Save: Baranda
+[2024.03.01-20.35.29:512][203]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Baranda.Baranda
+[2024.03.01-20.35.37:089][798]LogMetaData: Removing '/Game/1_props/Barco/Baranda.Baranda' ref from Metadata '/Game/1_props/Baranda.PackageMetaData'
+[2024.03.01-20.35.37:090][798]LogMetaData: Removing '/Game/1_props/Barco/Baranda_interior.Baranda_interior' ref from Metadata '/Game/1_props/Baranda_interior.PackageMetaData'
+[2024.03.01-20.35.37:091][798]LogMetaData: Removing '/Game/1_props/Barco/Barco_details.Barco_details' ref from Metadata '/Game/1_props/Barco_details.PackageMetaData'
+[2024.03.01-20.35.37:091][798]LogMetaData: Removing '/Game/1_props/Barco/Barco_Front_details.Barco_Front_details' ref from Metadata '/Game/1_props/Barco_Front_details.PackageMetaData'
+[2024.03.01-20.35.37:092][798]LogMetaData: Removing '/Game/1_props/Barco/Cofa.Cofa' ref from Metadata '/Game/1_props/Cofa.PackageMetaData'
+[2024.03.01-20.35.37:092][798]LogMetaData: Removing '/Game/1_props/Barco/Mastil_Details.Mastil_Details' ref from Metadata '/Game/1_props/Mastil_Details.PackageMetaData'
+[2024.03.01-20.35.37:093][798]LogMetaData: Removing '/Game/1_props/Barco/Pared_Interior.Pared_Interior' ref from Metadata '/Game/1_props/Pared_Interior.PackageMetaData'
+[2024.03.01-20.35.37:094][798]LogMetaData: Removing '/Game/1_props/Barco/Piso.Piso' ref from Metadata '/Game/1_props/Piso.PackageMetaData'
+[2024.03.01-20.35.37:095][798]LogMetaData: Removing '/Game/1_props/Barco/Poste.Poste' ref from Metadata '/Game/1_props/Poste.PackageMetaData'
+[2024.03.01-20.35.37:096][798]LogMetaData: Removing '/Game/1_props/Barco/Puerta.Puerta' ref from Metadata '/Game/1_props/Puerta.PackageMetaData'
+[2024.03.01-20.35.37:097][798]LogMetaData: Removing '/Game/1_props/Barco/Sogas.Sogas' ref from Metadata '/Game/1_props/Sogas.PackageMetaData'
+[2024.03.01-20.35.37:098][798]LogMetaData: Removing '/Game/1_props/Barco/Ventanas_Barco.Ventanas_Barco' ref from Metadata '/Game/1_props/Ventanas_Barco.PackageMetaData'
+[2024.03.01-20.35.37:098][798]LogMetaData: Removing '/Game/1_props/Barco/Ventanas_Camarote.Ventanas_Camarote' ref from Metadata '/Game/1_props/Ventanas_Camarote.PackageMetaData'
+[2024.03.01-20.35.37:100][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.35.37:132][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Baranda
+[2024.03.01-20.35.37:132][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda9BB86B214009FA7D8A9C579660F43BE0.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Baranda.uasset'
+[2024.03.01-20.35.37:143][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Baranda_interior
+[2024.03.01-20.35.37:143][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda_interior069670EE43141AB20918CFA1EEB6D2C2.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Baranda_interior.uasset'
+[2024.03.01-20.35.37:148][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Barco_details
+[2024.03.01-20.35.37:148][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_details5E1ECE9D4AB299BFECB969AB460FDC7E.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Barco_details.uasset'
+[2024.03.01-20.35.37:151][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Barco_Front_details
+[2024.03.01-20.35.37:151][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_Front_details9FF850634D06E00F4D3FE8A6CA3898A4.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Barco_Front_details.uasset'
+[2024.03.01-20.35.37:154][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Cofa
+[2024.03.01-20.35.37:154][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Cofa1B431F654F3AA7737D22FAA15A5F1BDF.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Cofa.uasset'
+[2024.03.01-20.35.37:159][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Mastil_Details
+[2024.03.01-20.35.37:159][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Mastil_Details33B014EE4840481F8309A196C3D82B0C.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Mastil_Details.uasset'
+[2024.03.01-20.35.37:162][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Pared_Interior
+[2024.03.01-20.35.37:162][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Pared_Interior2E963BF445B3ACDBFD46DFB977ED40A2.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Pared_Interior.uasset'
+[2024.03.01-20.35.37:164][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Piso
+[2024.03.01-20.35.37:164][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Piso50A0302E4EF61992E14EC18F13AD17A9.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Piso.uasset'
+[2024.03.01-20.35.37:169][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Poste
+[2024.03.01-20.35.37:169][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Poste1A76E56F4684B3959368D083DB159269.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Poste.uasset'
+[2024.03.01-20.35.37:174][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Puerta
+[2024.03.01-20.35.37:174][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Puerta07890F3746357174FE86568C107EBD99.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Puerta.uasset'
+[2024.03.01-20.35.37:194][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Sogas
+[2024.03.01-20.35.37:194][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/SogasAA659FAD48BF03885E8F0281B781B373.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Sogas.uasset'
+[2024.03.01-20.35.37:199][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Ventanas_Barco
+[2024.03.01-20.35.37:199][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_BarcoA6358C1B4AC7AE371BA8DB8316518B4D.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Ventanas_Barco.uasset'
+[2024.03.01-20.35.37:218][798]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Ventanas_Camarote
+[2024.03.01-20.35.37:218][798]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_Camarote53AA9D6441F4109386B4AB8C81D49947.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Ventanas_Camarote.uasset'
+[2024.03.01-20.35.37:225][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 14.2 sec)
+[2024.03.01-20.35.37:288][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.01-20.35.37:296][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.01-20.35.37:301][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.01-20.35.37:342][798]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Baranda.Baranda
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Baranda_interior.Baranda_interior
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Barco_details.Barco_details
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Barco_Front_details.Barco_Front_details
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Cofa.Cofa
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Mastil_Details.Mastil_Details
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Pared_Interior.Pared_Interior
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Piso.Piso
+[2024.03.01-20.35.37:342][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Poste.Poste
+[2024.03.01-20.35.37:343][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Puerta.Puerta
+[2024.03.01-20.35.37:343][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Sogas.Sogas
+[2024.03.01-20.35.37:343][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Ventanas_Barco.Ventanas_Barco
+[2024.03.01-20.35.37:343][798]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.35.39:866][ 85]LogSlate: Window 'Failed Renames' being destroyed
+[2024.03.01-20.35.51:737][256]LogSlate: Window 'Failed Renames' being destroyed
+[2024.03.01-20.36.04:319][409]LogContentBrowser: Attempting asset rename: Barco -> Exterior_Barco
+[2024.03.01-20.36.04:349][409]LogMetaData: Removing '/Game/1_props/Exterior_Barco.Exterior_Barco' ref from Metadata '/Game/1_props/Barco.PackageMetaData'
+[2024.03.01-20.36.04:349][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.36.04:380][409]LogSavePackage: Moving output files for package: /Game/1_props/Exterior_Barco
+[2024.03.01-20.36.04:380][409]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Exterior_Barco93BE1305407DE00B47401EA0132FB138.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Exterior_Barco.uasset'
+[2024.03.01-20.36.04:389][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 14.3 sec)
+[2024.03.01-20.36.04:401][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.01-20.36.04:411][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.03.01-20.36.04:417][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.01-20.36.04:420][409]AssetCheck: New page: Asset Save: Exterior_Barco
+[2024.03.01-20.36.04:420][409]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Exterior_Barco.Exterior_Barco
+[2024.03.01-20.36.06:997][637]LogMetaData: Removing '/Game/1_props/Barco/Exterior_Barco.Exterior_Barco' ref from Metadata '/Game/1_props/Exterior_Barco.PackageMetaData'
+[2024.03.01-20.36.06:998][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.36.07:026][637]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Exterior_Barco
+[2024.03.01-20.36.07:026][637]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Exterior_Barco01C3FF894FEDF6F5106DAC89461843C4.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Exterior_Barco.uasset'
+[2024.03.01-20.36.07:035][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 14.3 sec)
+[2024.03.01-20.36.07:046][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.03.01-20.36.07:055][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.01-20.36.07:062][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.01-20.36.07:075][637]AssetCheck: New page: Asset Save: Exterior_Barco
+[2024.03.01-20.36.07:075][637]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Exterior_Barco.Exterior_Barco
+[2024.03.01-20.36.12:917][158]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Baranda.Baranda
+[2024.03.01-20.36.12:948][158]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.36.12:948][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.36.13:486][158]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Total job queries 8863, among them cache hits 1289 (14.54%)
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Tracking 7539 distinct input hashes that result in 5497 distinct outputs (72.91%)
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: RAM used: 101,93 MiB of 1,60 GiB budget. Usage: 6.22%
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Shaders Compiled: 7539
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Jobs assigned 7542, completed 7539 (99.96%)
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Average time worker was idle: 34.87 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Time job spent in pending queue: average 117.07 s, longest 244.34 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Job execution time: average 2.61 s, max 35.03 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Job life time (pending + execution): average 119.73 s, max 244.55
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Shader code size: average 27,942 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 270.02 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Jobs were issued in 977 batches (only local compilation was used), average 7.72 jobs/batch
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Average processing rate: 27.92 jobs/sec
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Total thread time: 1972,75 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Total thread preprocess time: 128,871 s
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Percentage time preprocessing: 6.53%
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Effective parallelization: 7.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.36.15:583][281]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.43 sec, max 7.45 sec, min 4.00 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 8.10 sec, min 1.53 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.40% of total time (compiled  134 times, average 1.38 sec, max 1.88 sec, min 1.12 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 5.12% of total time (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.34% of total time (compiled   96 times, average 0.89 sec, max 1.57 sec, min 0.55 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.10% of total time (compiled  384 times, average 0.21 sec, max 0.62 sec, min 0.10 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.38% of total time (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.36.15:584][281]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.36.38:785][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.36.38:860][817]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Baranda
+[2024.03.01-20.36.38:861][817]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda532DC5174C235B3353409FB9B9B51514.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Baranda.uasset'
+[2024.03.01-20.36.38:870][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 14.4 sec)
+[2024.03.01-20.36.38:871][817]AssetCheck: New page: Asset Save: Baranda
+[2024.03.01-20.36.38:871][817]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Baranda.Baranda
+[2024.03.01-20.36.39:840][876]LogSlate: Window 'Baranda' being destroyed
+[2024.03.01-20.36.39:849][876]LogSlate: Window 'Baranda' being destroyed
+[2024.03.01-20.36.39:879][876]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.36.39:880][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.36.57:563][443]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/2_Mat/Textures/T_Baranda_RGB.T_Baranda_RGB
+[2024.03.01-20.36.57:670][443]LogViewport: Scene viewport resized to 1426x1014, mode Windowed.
+[2024.03.01-20.37.00:726][700]LogSlate: Window 'T_Baranda_RGB' being destroyed
+[2024.03.01-20.37.00:735][700]LogSlate: Window 'T_Baranda_RGB' being destroyed
+[2024.03.01-20.37.09:193][494]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Baranda_interior.Baranda_interior
+[2024.03.01-20.37.09:229][494]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.37.09:229][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.37.09:766][494]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.37.18:569][165]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Barco/Baranda_interior) ...
+[2024.03.01-20.37.26:860][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.37.26:936][681]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Baranda_interior
+[2024.03.01-20.37.26:936][681]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda_interior5AC18BA2427C43C59F9EF299FB7997CE.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Baranda_interior.uasset'
+[2024.03.01-20.37.26:946][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 14.5 sec)
+[2024.03.01-20.37.26:948][681]AssetCheck: New page: Asset Save: Baranda_interior
+[2024.03.01-20.37.26:948][681]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Baranda_interior.Baranda_interior
+[2024.03.01-20.37.29:060][793]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Baranda.Baranda
+[2024.03.01-20.37.29:068][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.37.29:068][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.37.29:624][793]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.37.43:090][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.37.43:160][640]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Baranda
+[2024.03.01-20.37.43:160][640]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Baranda523FB65042BC2E411A45AC88D7E75AA9.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Baranda.uasset'
+[2024.03.01-20.37.43:169][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 14.5 sec)
+[2024.03.01-20.37.43:170][640]AssetCheck: New page: Asset Save: Baranda
+[2024.03.01-20.37.43:170][640]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Baranda.Baranda
+[2024.03.01-20.38.43:345][395]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Barco_details.Barco_details
+[2024.03.01-20.38.43:353][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.38.43:354][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.38.43:920][395]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.01:824][299]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Barco_Front_details.Barco_Front_details
+[2024.03.01-20.39.01:830][299]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.39.01:831][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.39.02:552][299]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.06:081][331]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.06:081][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.06:611][336]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.06:611][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.07:185][356]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.07:185][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.14:900][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.39.14:972][829]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Barco_Front_details
+[2024.03.01-20.39.14:972][829]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_Front_details8AD230A540A8E10C2D2A7C8453D49C1A.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Barco_Front_details.uasset'
+[2024.03.01-20.39.14:982][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 14.6 sec)
+[2024.03.01-20.39.14:983][829]AssetCheck: New page: Asset Save: Barco_Front_details
+[2024.03.01-20.39.14:983][829]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Barco_Front_details.Barco_Front_details
+[2024.03.01-20.39.17:746][932]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Cofa.Cofa
+[2024.03.01-20.39.17:753][932]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.39.17:753][932]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.39.18:475][932]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.19:269][939]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.19:269][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Total job queries 8951, among them cache hits 1295 (14.47%)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Tracking 7620 distinct input hashes that result in 5539 distinct outputs (72.69%)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: RAM used: 103,67 MiB of 1,60 GiB budget. Usage: 6.33%
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Shaders Compiled: 7620
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Jobs assigned 7624, completed 7620 (99.95%)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Average time worker was idle: 43.29 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Time job spent in pending queue: average 115.82 s, longest 244.34 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Job execution time: average 2.58 s, max 35.03 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Job life time (pending + execution): average 118.46 s, max 244.55
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Shader code size: average 28,019 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 278.67 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Jobs were issued in 1059 batches (only local compilation was used), average 7.20 jobs/batch
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Average processing rate: 27.34 jobs/sec
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Total thread time: 1997,852 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Total thread preprocess time: 131,282 s
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Percentage time preprocessing: 6.57%
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Effective parallelization: 7.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.43 sec, max 7.45 sec, min 4.00 sec)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 8.10 sec, min 1.53 sec)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.39.21:292][982]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.28% of total time (compiled  134 times, average 1.38 sec, max 1.88 sec, min 1.12 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 5.06% of total time (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.29% of total time (compiled   96 times, average 0.89 sec, max 1.57 sec, min 0.55 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.05% of total time (compiled  384 times, average 0.21 sec, max 0.62 sec, min 0.10 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.34% of total time (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.39.21:293][982]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.39.24:957][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.39.25:024][203]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Cofa
+[2024.03.01-20.39.25:025][203]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/CofaE2FBFB914F8CD85059354F8804611333.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Cofa.uasset'
+[2024.03.01-20.39.25:034][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 14.7 sec)
+[2024.03.01-20.39.25:036][203]AssetCheck: New page: Asset Save: Cofa
+[2024.03.01-20.39.25:036][203]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Cofa.Cofa
+[2024.03.01-20.39.27:071][299]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Exterior_Barco.Exterior_Barco
+[2024.03.01-20.39.27:079][299]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.39.27:079][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.39.27:623][299]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.28:857][372]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.28:857][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.39:994][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.39.40:058][242]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Exterior_Barco
+[2024.03.01-20.39.40:059][242]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Exterior_Barco0544367A4322714AF55DC08888772808.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Exterior_Barco.uasset'
+[2024.03.01-20.39.40:068][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 14.8 sec)
+[2024.03.01-20.39.40:070][242]AssetCheck: New page: Asset Save: Exterior_Barco
+[2024.03.01-20.39.40:070][242]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Exterior_Barco.Exterior_Barco
+[2024.03.01-20.39.42:480][369]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Mastil_Details.Mastil_Details
+[2024.03.01-20.39.42:487][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.39.42:487][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.39.43:035][369]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.44:356][426]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.44:356][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.39.51:859][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.39.51:932][884]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Mastil_Details
+[2024.03.01-20.39.51:932][884]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Mastil_Details8CB80A5B4BBB7FC5243542AB71FDA26D.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Mastil_Details.uasset'
+[2024.03.01-20.39.51:943][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 14.9 sec)
+[2024.03.01-20.39.51:945][884]AssetCheck: New page: Asset Save: Mastil_Details
+[2024.03.01-20.39.51:945][884]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Mastil_Details.Mastil_Details
+[2024.03.01-20.39.54:169][996]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Pared_Interior.Pared_Interior
+[2024.03.01-20.39.54:177][996]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.39.54:177][996]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.39.54:720][996]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.39.55:627][ 44]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.39.55:627][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.40.00:279][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.40.00:347][368]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Pared_Interior
+[2024.03.01-20.40.00:347][368]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Pared_Interior1A265D90479AC6C6DD4D0294048C40D2.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Pared_Interior.uasset'
+[2024.03.01-20.40.00:356][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 14.9 sec)
+[2024.03.01-20.40.00:358][368]AssetCheck: New page: Asset Save: Pared_Interior
+[2024.03.01-20.40.00:358][368]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Pared_Interior.Pared_Interior
+[2024.03.01-20.40.02:855][457]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Piso.Piso
+[2024.03.01-20.40.02:862][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.40.02:862][457]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.40.03:434][457]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.40.08:886][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.40.09:052][640]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Piso
+[2024.03.01-20.40.09:052][640]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Piso22F6C7D246218CA67A74FEBFB06AACE7.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Piso.uasset'
+[2024.03.01-20.40.09:068][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 15.1 sec)
+[2024.03.01-20.40.09:073][640]AssetCheck: New page: Asset Save: Piso
+[2024.03.01-20.40.09:074][640]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Piso.Piso
+[2024.03.01-20.40.11:685][669]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Poste.Poste
+[2024.03.01-20.40.11:692][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.40.11:692][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.40.12:357][669]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.40.13:117][710]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.40.13:117][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.40.13:632][739]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.40.13:632][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.40.19:974][157]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.40.20:050][157]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Poste
+[2024.03.01-20.40.20:051][157]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/PosteA5BEAB7F409793C983BEC99014E0DD2D.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Poste.uasset'
+[2024.03.01-20.40.20:063][157]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 15.2 sec)
+[2024.03.01-20.40.20:064][157]AssetCheck: New page: Asset Save: Poste
+[2024.03.01-20.40.20:064][157]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Poste.Poste
+[2024.03.01-20.40.22:476][262]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Puerta.Puerta
+[2024.03.01-20.40.22:484][262]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.40.22:484][262]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.40.23:034][262]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.40.23:789][301]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.40.23:789][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.40.28:689][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.40.28:761][635]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Puerta
+[2024.03.01-20.40.28:763][635]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/PuertaFDB5CB5441D3B0F479CF0E9E8A9DA75F.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Puerta.uasset'
+[2024.03.01-20.40.28:771][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 15.3 sec)
+[2024.03.01-20.40.28:774][635]AssetCheck: New page: Asset Save: Puerta
+[2024.03.01-20.40.28:774][635]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Puerta.Puerta
+[2024.03.01-20.40.34:391][913]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Sogas.Sogas
+[2024.03.01-20.40.34:399][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.40.34:399][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.40.34:941][913]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.40.36:678][926]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.40.36:678][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.40.40:785][122]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Barco/Sogas) ...
+[2024.03.01-20.40.46:184][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.40.46:278][439]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Sogas
+[2024.03.01-20.40.46:278][439]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/SogasDF29288943B4811455A278A4D74150CA.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Sogas.uasset'
+[2024.03.01-20.40.46:288][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 15.4 sec)
+[2024.03.01-20.40.46:290][439]AssetCheck: New page: Asset Save: Sogas
+[2024.03.01-20.40.46:290][439]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Sogas.Sogas
+[2024.03.01-20.40.49:740][526]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Ventanas_Barco.Ventanas_Barco
+[2024.03.01-20.40.49:748][526]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.40.49:748][526]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.40.50:455][526]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.41.01:441][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.41.01:536][110]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Ventanas_Barco
+[2024.03.01-20.41.01:536][110]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_BarcoCD1C78EE417ADEA3D284B3BA01227C27.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Ventanas_Barco.uasset'
+[2024.03.01-20.41.01:545][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 15.5 sec)
+[2024.03.01-20.41.01:546][110]AssetCheck: New page: Asset Save: Ventanas_Barco
+[2024.03.01-20.41.01:546][110]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Ventanas_Barco.Ventanas_Barco
+[2024.03.01-20.41.02:683][155]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.41.02:683][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.41.05:052][217]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/1_props/Barco/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.41.05:063][217]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.41.05:063][217]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.41.05:650][217]LogViewport: Scene viewport resized to 1407x1018, mode Windowed.
+[2024.03.01-20.41.06:682][225]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.41.06:682][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.41.11:271][456]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/1_props/Barco/Ventanas_Camarote) ...
+[2024.03.01-20.41.13:652][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.41.13:742][591]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Ventanas_Camarote
+[2024.03.01-20.41.13:743][591]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Ventanas_CamaroteBC6B98D44BC368F27246EC80074EB717.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Ventanas_Camarote.uasset'
+[2024.03.01-20.41.13:752][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 15.6 sec)
+[2024.03.01-20.41.13:753][591]AssetCheck: New page: Asset Save: Ventanas_Camarote
+[2024.03.01-20.41.13:753][591]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Ventanas_Camarote.Ventanas_Camarote
+[2024.03.01-20.41.17:882][828]LogSlate: Window 'Ventanas_Camarote' being destroyed
+[2024.03.01-20.41.17:923][828]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.41.17:923][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.41.35:864][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.01-20.41.37:195][639]LogSlate: Window 'Save Content' being destroyed
+[2024.03.01-20.41.37:203][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.41.37:255][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.01-20.41.37:268][639]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.41.37:269][639]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main4455599E4905B33DFE81C5A92DE5DE64.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.41.37:274][639]LogFileHelpers: Saving map 'Main' took 0.043
+[2024.03.01-20.41.37:332][639]LogSavePackage: Moving output files for package: /Game/1_props/Barco/Barco_details
+[2024.03.01-20.41.37:332][639]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Barco_detailsB4A958FD4D3CFB904A354985514BC806.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/1_props/Barco/Barco_details.uasset'
+[2024.03.01-20.41.37:339][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 15.7 sec)
+[2024.03.01-20.41.37:341][639]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.01-20.41.37:341][639]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-20.41.37:341][639]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/1_props/Barco/Barco_details.Barco_details
+[2024.03.01-20.41.38:606][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.41.38:664][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.03.01-20.41.38:678][770]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.41.38:678][770]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/Main5ACE3C23459AC28389950A84A4CBC87D.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.41.38:683][770]LogFileHelpers: Saving map 'Main' took 0.043
+[2024.03.01-20.41.38:691][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 15.8 sec)
+[2024.03.01-20.41.38:692][770]AssetCheck: New page: Asset Save: Main
+[2024.03.01-20.41.38:692][770]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-20.41.52:720][919]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.01-20.41.52:728][919]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.01-20.41.52:734][919]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.01-20.41.52:759][921]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.01-20.41.57:085][400]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Barco
+[2024.03.01-20.41.57:102][400]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.01-20.41.58:665][571]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/3_BP/BP_Barco.BP_Barco
+[2024.03.01-20.41.58:668][571]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.41.58:669][571]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.41.58:687][571]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.01-20.42.00:033][571]LogViewport: Scene viewport resized to 1660x1051, mode Windowed.
+[2024.03.01-20.42.02:278][768]BlueprintLog: New page: Compile BP_Barco
+[2024.03.01-20.42.02:319][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.01-20.42.03:347][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.42.03:377][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_BP/BP_Barco" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset" SILENT=true
+[2024.03.01-20.42.03:385][861]LogSavePackage: Moving output files for package: /Game/3_BP/BP_Barco
+[2024.03.01-20.42.03:385][861]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/BP_BarcoC3232CC14CC3FE4751EA94B7E742B448.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset'
+[2024.03.01-20.42.03:396][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 15.9 sec)
+[2024.03.01-20.42.03:397][861]AssetCheck: New page: Asset Save: BP_Barco
+[2024.03.01-20.42.03:397][861]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/3_BP/BP_Barco.BP_Barco
+[2024.03.01-20.42.55:516][227]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.01-20.42.55:523][227]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.01-20.44.13:720][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.44.13:791][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_BP/BP_Barco" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset" SILENT=true
+[2024.03.01-20.44.13:799][623]LogSavePackage: Moving output files for package: /Game/3_BP/BP_Barco
+[2024.03.01-20.44.13:800][623]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/BP_BarcoDE826F5E43F8763544613C845CA62C9A.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset'
+[2024.03.01-20.44.13:809][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 16.0 sec)
+[2024.03.01-20.44.13:810][623]AssetCheck: New page: Asset Save: BP_Barco
+[2024.03.01-20.44.13:810][623]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/3_BP/BP_Barco.BP_Barco
+[2024.03.01-20.44.14:368][669]BlueprintLog: New page: Compile BP_Barco
+[2024.03.01-20.44.14:440][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.03.01-20.45.02:671][367]BlueprintLog: New page: Compile BP_Barco
+[2024.03.01-20.45.02:707][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.03.01-20.45.03:293][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.45.03:360][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3_BP/BP_Barco" FILE="../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset" SILENT=true
+[2024.03.01-20.45.03:365][405]LogSavePackage: Moving output files for package: /Game/3_BP/BP_Barco
+[2024.03.01-20.45.03:365][405]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/BP_Barco4E1548A94A04EB8D85E336A20E4671BA.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/3_BP/BP_Barco.uasset'
+[2024.03.01-20.45.03:373][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 16.0 sec)
+[2024.03.01-20.45.03:376][405]AssetCheck: New page: Asset Save: BP_Barco
+[2024.03.01-20.45.03:376][405]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/3_BP/BP_Barco.BP_Barco
+[2024.03.01-20.45.04:476][513]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.45.04:476][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.45.11:525][868]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/3_BP/BP_Barco.BP_Barco_C
+[2024.03.01-20.45.11:526][868]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/3_BP/BP_Barco.BP_Barco_C
+[2024.03.01-20.45.11:533][868]LogActorFactory: Actor Factory spawned Blueprint /Game/3_BP/BP_Barco.BP_Barco as actor: BP_Barco_C /Game/Main.Main:PersistentLevel.BP_Barco_C_0
+[2024.03.01-20.45.11:540][868]LogActorFactory: Actor Factory spawned Blueprint /Game/3_BP/BP_Barco.BP_Barco as actor: BP_Barco_C /Game/Main.Main:PersistentLevel.BP_Barco_C_0
+[2024.03.01-20.45.11:560][868]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.01-20.45.16:873][361]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/3_BP/BP_Barco.BP_Barco_C
+[2024.03.01-20.45.16:873][361]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/3_BP/BP_Barco.BP_Barco_C
+[2024.03.01-20.45.16:881][361]LogActorFactory: Actor Factory spawned Blueprint /Game/3_BP/BP_Barco.BP_Barco as actor: BP_Barco_C /Game/Main.Main:PersistentLevel.BP_Barco_C_1
+[2024.03.01-20.45.16:887][361]LogActorFactory: Actor Factory spawned Blueprint /Game/3_BP/BP_Barco.BP_Barco as actor: BP_Barco_C /Game/Main.Main:PersistentLevel.BP_Barco_C_1
+[2024.03.01-20.46.29:243][496]Cmd: TRANSACTION UNDO
+[2024.03.01-20.46.29:243][496]LogEditorTransaction: Undo Move Elements
+[2024.03.01-20.48.04:420][ 38]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Baranda.M_Baranda
+[2024.03.01-20.48.04:430][ 38]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.48.04:430][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.48.04:646][ 38]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.48.04:646][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.48.04:646][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.48.04:646][ 38]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.48.04:655][ 38]LogViewport: Scene viewport resized to 377x506, mode Windowed.
+[2024.03.01-20.48.04:689][ 39]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Total job queries 9004, among them cache hits 1299 (14.43%)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Tracking 7673 distinct input hashes that result in 5566 distinct outputs (72.54%)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: RAM used: 104,79 MiB of 1,60 GiB budget. Usage: 6.40%
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Shaders Compiled: 7673
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Jobs assigned 7673, completed 7673 (100%)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Average time worker was idle: 41.67 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Time job spent in pending queue: average 115.08 s, longest 244.34 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Job execution time: average 2.57 s, max 35.03 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Job life time (pending + execution): average 117.64 s, max 244.55
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Shader code size: average 28,045 KiB, min 2,078 KiB, max 162,84 KiB
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 283.21 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Jobs were issued in 1108 batches (only local compilation was used), average 6.93 jobs/batch
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Average processing rate: 27.09 jobs/sec
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Total thread time: 2013,864 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Total thread preprocess time: 132,93 s
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Percentage time preprocessing: 6.60%
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Effective parallelization: 7.11 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.43 sec, max 7.45 sec, min 4.00 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.51 sec, max 8.10 sec, min 1.53 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.21% of total time (compiled  134 times, average 1.38 sec, max 1.88 sec, min 1.12 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 5.02% of total time (compiled   12 times, average 8.42 sec, max 15.49 sec, min 1.16 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.26% of total time (compiled   96 times, average 0.89 sec, max 1.57 sec, min 0.55 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 4.01% of total time (compiled  384 times, average 0.21 sec, max 0.62 sec, min 0.10 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 3.31% of total time (compiled   33 times, average 2.02 sec, max 3.23 sec, min 1.25 sec)
+[2024.03.01-20.48.04:690][ 39]LogShaderCompilers: Display: ================================================
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.48.04:722][ 40]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.48.54:354][714]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.48.54:354][714]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.48.54:354][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.48.54:354][714]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.48.54:453][715]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.49.06:616][429]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.49.06:616][429]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.06:616][429]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.06:616][429]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.49.07:077][451]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-20.49.07:077][451]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.07:077][451]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.07:077][451]MaterialEditorStats: Shader Count: 1
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.07:187][457]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.49.13:179][779]LogMaterialEditor: Applying material M_Baranda
+[2024.03.01-20.49.13:314][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.03.01-20.49.13:715][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.01-20.49.14:268][812]LogMaterialEditor: Saving and Compiling material M_Baranda
+[2024.03.01-20.49.14:271][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.49.15:185][812]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Baranda
+[2024.03.01-20.49.15:185][812]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/M_BarandaBC53C10F4187D7D953A060969EA2C52B.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Baranda.uasset'
+[2024.03.01-20.49.15:192][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 921 ms (total: 17.0 sec)
+[2024.03.01-20.49.15:194][812]AssetCheck: New page: Asset Save: M_Baranda
+[2024.03.01-20.49.15:194][812]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Baranda.M_Baranda
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: MaxSampler: 272 instructions
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.15:194][812]MaterialEditorStats: Shader Count: 23
+[2024.03.01-20.49.16:661][878]LogSlate: Window 'M_Baranda' being destroyed
+[2024.03.01-20.49.16:680][878]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.49.16:680][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.49.38:552][136]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/2_Mat/MI_Baranda.MI_Baranda
+[2024.03.01-20.49.38:554][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.49.38:554][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.49.38:754][136]LogViewport: Scene viewport resized to 1337x1018, mode Windowed.
+[2024.03.01-20.49.52:267][932]LogSlate: Window 'MI_Baranda' being destroyed
+[2024.03.01-20.49.52:272][932]LogSlate: Window 'MI_Baranda' being destroyed
+[2024.03.01-20.49.52:292][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.01-20.49.52:347][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.01-20.49.52:368][932]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.49.52:368][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.49.55:923][ 90]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/2_Mat/M_Baranda.M_Baranda
+[2024.03.01-20.49.55:926][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.49.55:926][ 90]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.49.56:064][ 90]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.49.56:064][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.56:064][ 90]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.56:064][ 90]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.49.56:072][ 90]LogViewport: Scene viewport resized to 377x506, mode Windowed.
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.49.56:243][ 92]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.50.09:865][812]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.50.09:865][812]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.09:865][812]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.09:865][812]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.10:005][813]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.50.16:183][139]MaterialEditorStats: Texture samplers: 0/16
+[2024.03.01-20.50.16:183][139]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.16:183][139]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.16:183][139]MaterialEditorStats: Shader Count: 0
+[2024.03.01-20.50.16:730][162]MaterialEditorStats: Texture samplers: 3/16
+[2024.03.01-20.50.16:731][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.16:731][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.16:731][162]MaterialEditorStats: Shader Count: 1
+[2024.03.01-20.50.16:838][166]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.50.16:839][166]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.50.16:839][166]MaterialEditorStats: Texture samplers: 5/16
+[2024.03.01-20.50.16:839][166]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.16:839][166]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.16:839][166]MaterialEditorStats: Shader Count: 4
+[2024.03.01-20.50.17:652][217]LogMaterialEditor: Applying material M_Baranda
+[2024.03.01-20.50.17:779][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.03.01-20.50.18:247][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.01-20.50.18:706][235]LogMaterialEditor: Saving and Compiling material M_Baranda
+[2024.03.01-20.50.18:709][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.50.19:672][235]LogSavePackage: Moving output files for package: /Game/2_Mat/M_Baranda
+[2024.03.01-20.50.19:672][235]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/M_Baranda7BCE7C2F48F8EAB47FB3DEBF86212EB4.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/M_Baranda.uasset'
+[2024.03.01-20.50.19:681][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 971 ms (total: 17.9 sec)
+[2024.03.01-20.50.19:683][235]AssetCheck: New page: Asset Save: M_Baranda
+[2024.03.01-20.50.19:683][235]LogContentValidation: Display: Validating /Script/Engine.Material /Game/2_Mat/M_Baranda.M_Baranda
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: MaxSampler: 272 instructions
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: Texture samplers: 6/16
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.03.01-20.50.19:683][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.03.01-20.50.19:684][235]MaterialEditorStats: Shader Count: 23
+[2024.03.01-20.50.20:106][256]LogSlate: Window 'M_Baranda' being destroyed
+[2024.03.01-20.50.20:112][256]LogSlate: Window 'M_Baranda' being destroyed
+[2024.03.01-20.50.20:124][256]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.50.20:124][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.50.23:601][405]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/2_Mat/MI_Baranda.MI_Baranda
+[2024.03.01-20.50.23:603][405]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.01-20.50.23:603][405]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.01-20.50.23:849][405]LogViewport: Scene viewport resized to 1337x1018, mode Windowed.
+[2024.03.01-20.50.35:723][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.50.35:817][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.01-20.50.35:843][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.03.01-20.50.35:845][ 19]LogSavePackage: Moving output files for package: /Game/2_Mat/MI_Baranda
+[2024.03.01-20.50.35:846][ 19]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/MI_Baranda119799594D3B8110EAA1A383A6182761.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/2_Mat/MI_Baranda.uasset'
+[2024.03.01-20.50.35:855][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 18.1 sec)
+[2024.03.01-20.50.35:856][ 19]AssetCheck: New page: Asset Save: MI_Baranda
+[2024.03.01-20.50.35:856][ 19]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/2_Mat/MI_Baranda.MI_Baranda
+[2024.03.01-20.50.36:794][ 86]LogSlate: Window 'MI_Baranda' being destroyed
+[2024.03.01-20.50.36:800][ 86]LogSlate: Window 'MI_Baranda' being destroyed
+[2024.03.01-20.50.36:813][ 86]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.03.01-20.50.36:813][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.01-20.51.17:446][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.01-20.51.18:784][634]LogSlate: Window 'Save Content' being destroyed
+[2024.03.01-20.51.18:792][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.51.18:860][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.03.01-20.51.18:874][634]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.51.18:876][634]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/MainB11E1723448D71D1E2F45BB9A8AA579C.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.51.18:880][634]LogFileHelpers: Saving map 'Main' took 0.060
+[2024.03.01-20.51.18:904][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 18.2 sec)
+[2024.03.01-20.51.18:906][634]AssetCheck: New page: Asset Save: Main
+[2024.03.01-20.51.18:906][634]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.03.01-20.51.20:123][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.01-20.51.20:189][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.01-20.51.20:202][711]LogSavePackage: Moving output files for package: /Game/Main
+[2024.03.01-20.51.20:202][711]LogSavePackage: Moving '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Saved/MainAFD60C824650206523982AAAAFDBB68C.tmp' to '../../../../../../Users/nicoc/OneDrive/Documents/Unreal Projects/piratas-animacion/Piratas_animacion_UE/Content/Main.umap'
+[2024.03.01-20.51.20:208][711]LogFileHelpers: Saving map 'Main' took 0.054
+[2024.03.01-20.51.20:214][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 18.3 sec)
+[2024.03.01-20.51.20:216][711]AssetCheck: New page: Asset Save: Main
+[2024.03.01-20.51.20:216][711]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
